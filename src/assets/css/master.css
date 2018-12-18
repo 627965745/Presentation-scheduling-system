@@ -1,0 +1,4707 @@
+
+/* ----- page header ----- */
+
+#masthead {
+	position: relative;
+	padding: 30px 20px;
+}
+.ie7 #masthead {
+	padding-bottom: 20px;
+}
+
+/*.study #uni-home-link{
+
+		background: url(images/h1-logo-study.png) top left no-repeat;
+
+	}*/
+
+.content img.social {
+	background-color: #FFF !important;
+	border: 10px solid #FFF !important;
+	}
+
+.aside img.social {
+	background-color: #FFF !important;
+	border: 10px solid #FFF !important;
+	}
+
+img.social {
+	background-color: #FFF !important;
+	border: 10px solid #FFF !important;
+	}
+
+
+
+#dept-home-link a {
+	position: absolute;
+	padding-top: 50px;
+	overflow: hidden;
+	display: block;
+	height: 0px;
+	left: 240px;
+	top: 30px;
+}
+.ie7 #dept-home-link a {
+	padding-top: 60px;
+}
+
+/* ----- Admin form ----- */
+
+
+
+div.admin-form form {
+	background-color: #E5EBF2;
+	border: 5px solid #6689B3;
+	margin-bottom: 20px;
+	padding: 10px;
+	color:#000;
+	width: 440px;
+	float:left;
+}
+div.admin-form form p {
+	padding-top: 5px;
+}
+div.admin-form form input {
+	padding: 3px;
+	border: 2px solid #6689B3;
+}
+div.admin-form form input[type="submit"] {
+	background-color: #003a81;
+	border: medium none;
+	margin-top: 5px;
+	color: white;
+	padding: 5px;
+}
+#global-and-search {
+	position: absolute;
+	width: auto;
+	right: 20px;
+	top: 25px;
+}
+#global-nav ul {
+	margin-bottom: 10px;
+	float: left;
+}
+#global-nav li {
+	float: left;
+}
+
+#search .search-input {
+	border: 2px solid #e1e2e2;
+	line-height: 20px;
+	padding: 0px 5px;
+	width: 218px;
+	height: 28px;
+}
+.ie7 #search .search-input, .ie7 #search .search-button {
+	margin-top: -20px;
+}
+#search .search-button {
+	background: #e1e2e2;
+	margin-left: 6px;
+	border: none;
+	height: 30px;
+	width: 70px;
+	color: #fff;
+}
+.hls #search .search-button {
+	background: #AB667F;
+}
+.postgraduate #search .search-button {
+	background: #90624f;
+}
+#ageing #search .search-button {
+	background: #b46415;
+}
+#translational #search .search-button {
+	background: #15ab3b;
+}
+#learning-and-teaching #search .search-button {
+	background: #000;
+}
+#psychology #search .search-button {
+	background: #bcab7a;
+}
+#infection #search .search-button {
+	background: #00B274;
+}
+#management #search .search-button {
+	background: #be6d00;
+}
+#engineering #search .search-button {
+	background: #12B93C;
+}
+#physics #search .search-button {
+	background: #783853;
+}
+#electrical-engineering #search .search-button {
+	background: #b27b00;
+}
+#risk #search .search-button {
+	background: #D99D55;
+}
+#environmental-science #search .search-button {
+	background: #B27B23;
+}
+#kta #search .search-button {
+	background: #9e0601;
+}
+#technology-directorate #search .search-button {
+	background: #D0AE32;
+}
+.search-select {
+	background-color: #e1e2e2;
+	background-color: rgba(221, 221, 221, 0.8);
+	padding: 5px 10px;
+	width: 212px;
+	color: #333;
+	position: relative;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.ie7 .search-select {
+	background-color: #e1e2e2;
+	margin-top: -2px;
+}
+.search-select label {
+	line-height: 1.5em;
+}
+.search-select input {
+	margin-right: 5px;
+}
+/* ----- navigation ----- */
+
+/* ----- navigation ----- */
+
+
+
+
+
+#roundhouse-nav {
+	background-color: #F1F1F1;
+	width:950px;
+	margin-left:20px;
+	margin-bottom:20px;
+	margin-top:-15px;
+	float:left;
+	height:30px;
+	padding:0px;
+}
+#roundhouse-nav ul {
+	margin:0px;
+	padding:0px;
+}
+#roundhouse-nav ul li {
+	float:left;
+	list-style:none;
+}
+#roundhouse-nav a {
+	float: left;
+	height: 30px;
+	line-height: 15px;
+	padding: 5px 10px;
+	width: auto;
+	text-decoration: none;
+	margin:0px;
+}
+#site-navigation {
+	width: 260px;
+	float: left;
+}
+#navigation {
+	margin: 0 20px;
+	width: 210px;
+}
+#navigation li {
+	position: relative;
+}
+#navigation li a {
+	text-decoration: none;
+	background: #e1e2e2;
+	margin-bottom: 1px;
+	padding: 8px 10px;
+	font-size: 12px;
+	display:block;
+	width: 180px;
+	color: #333;
+	/*css3*/
+
+	-webkit-transition: color 0.3s ease;
+	-webkit-transition: background 0.3s ease;
+	-webkit-transition: padding-right 0.3s ease;
+}
+.hls #navigation li a {
+	background: #d6eed8;
+}
+.admin #navigation li a {
+	background: #e5ebf2;
+}
+.ref #navigation li a {
+	background: #e5ebf2;
+}
+
+.excellence #navigation li a {
+	background: #e5ebf2;
+}
+
+.friends #navigation li a {
+	background: #e5ebf2;
+}
+.annual-report #navigation li a {
+	background: #e5ebf2;
+}
+.i-p #navigation li a {
+	background: #e5ebf2;
+}
+.a-z #navigation li a {
+	background: #e5ebf2;
+}
+.postgraduate #navigation li a {
+	background: #b17b67;
+	color:#fff;
+}
+#ageing #navigation li a {
+	background: #e8eef0;
+}
+#translational #navigation li a {
+	background: #fbe8e9;
+}
+#psychology #navigation li a {
+	background: #e4e7f2;
+}
+#infection #navigation li a {
+	background: #ecc8bf;
+}
+#management #navigation li a {
+	background: #80b8d9;
+}
+#physics #navigation li a {
+	background: #63A175;
+}
+#engineering #navigation li a {
+	background: #B9121B;
+	color:#FCDAE0;
+}
+#electrical-engineering #navigation li a {
+	background: #e5e9ef;
+}
+#risk #navigation li a {
+	background: #d7dbea;
+}
+#environmental-science #navigation li a {
+	background: #7f99cc;
+	color:#fff;
+}
+#kta #navigation li a {
+	background: #e5e5ff;
+}
+#navigation li .currentbranch1 a {
+	padding-right: 30px;
+}
+
+#navigation .sub-menu a,  #navigation li ul a {
+	background-color: #ccc;
+	color: #333;
+}
+.hls #navigation .sub-menu a,  .hls #navigation li ul a {
+	background-color: #99d59e;
+}
+.admin #navigation .sub-menu a,  .admin #navigation li ul a {
+	background-color: #b2c4d9;
+}
+.ref #navigation .sub-menu a,  .ref #navigation li ul a {
+	background-color: #b2c4d9;
+}
+
+.excellence #navigation .sub-menu a,  .excellence #navigation li ul a {
+	background-color: #b2c4d9;
+}
+
+
+.friends #navigation .sub-menu a,  .friends #navigation li ul a {
+	background-color: #b2c4d9;
+}
+.annual-report #navigation .sub-menu a,  .annual-report #navigation li ul a {
+	background-color: #b2c4d9;
+}
+.i-p #navigation .sub-menu a,  .i-p #navigation li ul a {
+	background-color: #b2c4d9;
+}
+.a-z #navigation .sub-menu a,  .a-z #navigation li ul a {
+	background-color: #b2c4d9;
+}
+.postgraduate #navigation .sub-menu a,  .postgraduate #navigation li ul a {
+	background-color: #c7b0a7;
+}
+#ageing #navigation .sub-menu a,  #ageing #navigation li ul a {
+	background-color: #c7d5d9;
+}
+#translational #navigation .sub-menu a,  #translational #navigation li ul a {
+	background-color: #f5c6c8;
+}
+#psychology #navigation .sub-menu a,  #psychology #navigation li ul a {
+	background-color: #bcc3dd;
+}
+#infection #navigation .sub-menu a,  #infection #navigation li ul a {
+	background-color: #c55940;
+	color:#fff;
+}
+#management #navigation .sub-menu a,  #management #navigation li ul a {
+	background-color: #4194c6;
+	color:#fff;
+}
+#physics #navigation .sub-menu a,  #physics #navigation li ul a {
+	background-color: #548763;
+	color:#000;
+}
+#engineering #navigation .sub-menu a,  #engineering #navigation li ul a {
+	background-color: #912B30;
+	color:#FCDAE0;
+}
+#electrical-engineering #navigation .sub-menu a,  #electrical-engineering #navigation li ul a {
+	background-color: #ccd3e0;
+	color:#fff;
+}
+#risk #navigation .sub-menu a,  #risk #navigation li ul a {
+	background-color: #8793bf;
+}
+#environmental-science #navigation .sub-menu a,  #environmental-science #navigation li ul a {
+	background-color: #003399;
+}
+#kta #navigation .sub-menu a,  #kta #navigation li ul a {
+	background-color: #ccccff;
+}
+.ie7 #navigation li span a {
+	margin-top: -8px;
+}
+
+
+
+/* intranet link - should be last link on navigation
+
+
+
+#navigation li a[href^="https://www.liv.ac.uk/intranet/"]{
+
+	margin-top: 20px;
+
+}
+
+
+
+	.hls #navigation li a[href^="https://www.liv.ac.uk/intranet/"]{
+
+		background-color: #99d59e;
+
+	}
+
+
+
+	.hls #navigation li a[href^="https://www.liv.ac.uk/intranet/"]:hover{
+
+		background-color: #5cbc65;
+
+	}
+
+
+
+*/
+
+
+
+
+
+/* intranet links in main navigation */
+
+/* but not on intranet sites */
+
+
+
+.intranet #site-navigation #navigation li a[href*="/intranet/"] {
+ background-image: none;
+}
+/* ----- faculty link ----- */
+
+
+
+
+
+#breadcrumb {
+	background: #e1e2e2;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	padding: 5px 10px;
+	font-size: 11px;
+	float: left;
+	color: #666;
+}
+.hls #breadcrumb {
+	background: #d6eed8;
+}
+.admin #breadcrumb {
+	background: #e5ebf2;
+}
+.ref #breadcrumb {
+	background: #e5ebf2;
+}
+
+.excellence #breadcrumb {
+	background: #e5ebf2;
+}
+
+
+.friends #breadcrumb {
+	background: #e5ebf2;
+}
+.annual-report #breadcrumb {
+	background: #e5ebf2;
+}
+.i-p #breadcrumb {
+	background: #e5ebf2;
+}
+.a-z #breadcrumb {
+	background: #e5ebf2;
+}
+.postgraduate #breadcrumb {
+	background: #90624f;
+}
+.postgraduate #breadcrumb a {
+	color:#fff;
+}
+.postgraduate #breadcrumb ul li {
+	color:#fff;
+}
+#ageing #breadcrumb {
+	background: #e8eef0;
+}
+#translational #breadcrumb {
+	background: #fbe8e9;
+}
+#psychology #breadcrumb {
+	background: #e4e7f2;
+}
+#infection #breadcrumb {
+	background: #ecc8bf;
+}
+#infection #breadcrumb ul li a {
+	color:#000000;
+}
+#management #breadcrumb {
+	background: #80b8d9;
+	color:#FFFFFF;
+}
+#management #breadcrumb a {
+	color:#FFFFFF;
+}
+#physics #breadcrumb {
+	background: #50815e;
+	color:#fff;
+}
+#physics #breadcrumb a {
+	color:#fff;
+}
+#engineering #breadcrumb {
+	background: #D40D12;
+	color:#FCDAE0;
+}
+#engineering #breadcrumb a {
+	color:#FCDAE0;
+}
+#electrical-engineering #breadcrumb {
+	background: #e5e9ef;
+}
+#risk #breadcrumb {
+	background: #d7dbea;
+	color:#333333;
+}
+#risk #breadcrumb a {
+	color:#333333;
+}
+#environmental-science #breadcrumb {
+	background: #7f99cc;
+	color:#fff;
+}
+#environmental-science #breadcrumb ul li a {
+	color:#fff;
+}
+#kta #breadcrumb {
+	background: #e5e5ff;
+}
+#breadcrumb ul {
+	width: 690px;
+}
+#breadcrumb ul li {
+	float: left;
+}
+/* ----- central site navigation -----*/
+
+
+
+#central-navigation ul {
+	margin: -10px 0 15px 20px;
+	float: left;
+	clear: both;
+}
+#central-navigation li {
+	border-left: 1px solid white;
+	float: left;
+}
+#central-navigation li:first-child {
+	border-left: none;
+}
+#central-navigation li a {
+	display: block;
+	background-color: #c6cdd7;
+	height: 0px;
+	padding-top: 30px;
+	overflow: hidden;
+
+
+
+	/* css3 */
+
+	-webkit-transition: background-color .3s linear;
+}
+
+#central-navigation li a:hover {
+	/*background-color: #9ea4ac;*/
+
+	background-color: #f1f1f1;
+}
+/* ----- main-content ----- */
+
+/* ----- main-content ----- */
+
+
+
+#main-content {
+	margin-right: 20px;
+	float: right;
+	width: 710px;
+}
+.ie6 #main-content {
+	margin-right: 20px;
+	float: right;
+	width: 700px;
+}
+#main-content.no-nav {
+	width: 970px;
+	float: none;
+	margin-left: 20px;
+
+}
+
+.environmental-science .content .hand h4 {
+    background-color: #D88910;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 4px 10px;
+    width: 90px;
+}
+
+#physics.nanomaterials .content .hand h4 {
+	cursor: pointer;
+	background-color: #D88910;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#944b6a), to(#783853));
+	background-image: -webkit-linear-gradient(top, #944b6a, #783853);
+	background-image:    -moz-linear-gradient(top, #944b6a, #783853);
+	background-image:     -ms-linear-gradient(top, #944b6a, #783853);
+	background-image:      -o-linear-gradient(top, #944b6a, #783853);
+	background-image:         linear-gradient(top, #944b6a, #783853);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#944b6a', EndColorStr='#783853');
+	border-radius: 10px 10px 10px 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 4px 10px;
+    width: 90px;
+	}
+
+
+
+/* ----- institute home-page -----*/
+
+/* ----- institute home-page -----*/
+
+
+
+
+
+/* proposition */
+
+
+
+#proposition {
+	margin-bottom: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+#proposition h1 {
+	font-family: Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	margin-bottom: 10px;
+	font-weight: normal;
+	font-size: 2.7em;
+	color: #999;
+}
+.hls #proposition h1 {
+	color: #35ab40;
+}
+.admin #proposition h1 {
+	color: #003a81;
+}
+.ref #proposition h1 {
+	color: #003a81;
+}
+
+.excellence #proposition h1 {
+	color: #003a81;
+}
+
+.friends #proposition h1 {
+	color: #003a81;
+}
+.annual-report #proposition h1 {
+	color: #003a81;
+}
+.i-p #proposition h1 {
+	color: #003a81;
+}
+.a-z #proposition h1 {
+	color: #003a81;
+}
+#ageing #proposition h1 {
+	color: #215868;
+}
+#translational #proposition h1 {
+	color: #d61a23;
+}
+#psychology #proposition h1 {
+	color: #626c96;
+}
+#mathematical-sciences #proposition h1 {
+	color: #593939;
+}
+#infection #proposition h1 {
+	color: #b22200;
+}
+#management #proposition h1 {
+	font-family: Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	color: #004d80;
+}
+#physics #proposition h1 {
+	color: #3C6147;
+}
+#engineering #proposition h1 {
+	font-family: Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	color: #B9121B;
+}
+#electrical-engineering #proposition h1 {
+	color: #002366;
+}
+#risk #proposition h1 {
+	color: #000074;
+}
+#environmental-science #proposition h1 {
+	color: #00297a;
+}
+#kta #proposition h1 {
+	color: #7a7acc;
+}
+#proposition h2 {
+	font-family: Swiss721BT-Heavy, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	margin-bottom: 10px;
+	font-size: 150%;
+	color: #666;
+}
+.hls #proposition h2 {
+	color: #ab667f;
+}
+.admin #proposition h2 {
+	color: #c59a00;
+}
+.ref #proposition h2 {
+	color: #c59a00;
+}
+
+.excellence #proposition h2 {
+	color: #c59a00;
+}
+
+
+.friends #proposition h2 {
+	color: #c59a00;
+}
+.annual-report #proposition h2 {
+	color: #c59a00;
+}
+.i-p #proposition h2 {
+	color: #c59a00;
+}
+.a-z #proposition h2 {
+	color: #c59a00;
+}
+#ageing #proposition h2 {
+	color: #b46415;
+}
+#translational #proposition h2 {
+	color: #15ab3b;
+}
+#psychology #proposition h2 {
+	color: #bcab7a;
+}
+#infection #proposition h2 {
+	color: #00b271;
+}
+#management #proposition h2 {
+	color: #004d80;
+}
+#physics #proposition h2 {
+	color: #3C6147;
+}
+#electrical-engineering #proposition h2 {
+	color: #b27b00;
+}
+#risk #proposition h2 {
+	color: #000074;
+}
+#environmental-science #proposition h2 {
+	color: #B27B23;
+}
+#kta #proposition h2 {
+	color: #7a7acc;
+}
+#proposition p {
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #999999;
+}
+#proposition img {
+	border: 10px solid #e1e2e2;
+	margin-right: 30px;
+	width: 350px;
+	height: auto;
+	float: left;
+}
+.hls #proposition img {
+	border: 10px solid #d6eed8;
+	width:350px !important;
+	height:auto !important;
+}
+#ageing #proposition img {
+	border: 10px solid #e8eef0;
+}
+#translational #proposition img {
+	border: 10px solid #fbe8e9;
+}
+#electrical-engineering #proposition img {
+	border: 10px solid #e5e9ef;
+}
+#risk #proposition img {
+	border: 10px solid #d7dbea;
+}
+#environmental-science #proposition img {
+	border: 10px solid #7F99CC;
+}
+#kta #proposition img {
+	border: 10px solid #d8fcec;
+}
+#management #proposition img {
+	border: 10px solid #40b3ff;
+}
+#physics #proposition img {
+	border: 10px solid #DBE8DD;
+}
+#supporting-text {
+	width: 260px;
+	float: left;
+}
+#supporting-text ul {
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #231f20;
+}
+#call-to-action, .call-to-action, #extraNavigation li {
+	background-color: #99876e;
+	text-align: center;
+	text-decoration: none!important;
+	padding: 6px 10px;
+	font-size: 20px;
+	float: left;
+	width: auto;
+	margin-top: 10px;
+	width: 100%;
+	color: #fff!IMPORTANT;
+	/* css3 */
+
+	text-shadow:
+ 0px 2px 3px rgba(0, 0, 0, 0.5),  0px 10px 30px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8), 0 3px 9px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8), 0 3px 9px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8), 0 3px 9px rgba(0, 0, 0, 0.2);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-transition: background-color 0.3s ease;
+}
+#extraNavigation {
+	margin-top:12px
+}
+#extraNavigation ul, #extraNavigation, #extraNavigation li {
+	width: 200px
+}
+#extraNavigation li a {
+	color:#fff;
+	text-decoration:none
+}
+.hls #call-to-action, .hls .call-to-action {
+	background-image: -moz-linear-gradient(top, #bc8599, #ab667f); /* FF3.6 */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #bc8599), color-stop(1, #ab667f)); /* Saf4+, Chrome */
+	background-image: linear-gradient(top, #bc8599, #ab667f);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#bc8599', EndColorStr='#ab667f'); /* IE6–IE9 */
+}
+.admin #call-to-action, .admin .call-to-action {
+	background-color: #d0ae32;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#d0ae32), to(#c59a00));
+	background-image: -webkit-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:    -moz-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:     -ms-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:      -o-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:         linear-gradient(top, #d0ae32, #c59a00);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#d0ae32', EndColorStr='#c59a00');
+}
+#mrc-cpt.admin aside a {
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8), 0 3px 9px rgba(0, 0, 0, 0.2);
+	color: #FFFFFF !important;
+	float: left;
+	font-size: 20px;
+	margin-top: 10px;
+	padding: 6px 10px;
+	text-align: center;
+	text-decoration: none !important;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5), 0 10px 30px rgba(0, 0, 0, 0.3);
+	width: 100%;
+	background-color: #d0ae32;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#d0ae32), to(#c59a00));
+	background-image: -webkit-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:    -moz-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:     -ms-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:      -o-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:         linear-gradient(top, #d0ae32, #c59a00);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#d0ae32', EndColorStr='#c59a00');
+}
+.ref #call-to-action, .ref .call-to-action {
+	background-color: #d0ae32;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#d0ae32), to(#c59a00));
+	background-image: -webkit-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:    -moz-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:     -ms-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:      -o-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:         linear-gradient(top, #d0ae32, #c59a00);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#d0ae32', EndColorStr='#c59a00');
+}
+
+.excellence #call-to-action, .excellence .call-to-action {
+	background-color: #d0ae32;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#d0ae32), to(#c59a00));
+	background-image: -webkit-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:    -moz-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:     -ms-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:      -o-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:         linear-gradient(top, #d0ae32, #c59a00);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#d0ae32', EndColorStr='#c59a00');
+}
+
+.friends #call-to-action, .friends .call-to-action {
+	background-color: #d0ae32;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#d0ae32), to(#c59a00));
+	background-image: -webkit-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:    -moz-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:     -ms-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:      -o-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:         linear-gradient(top, #d0ae32, #c59a00);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#d0ae32', EndColorStr='#c59a00');
+}
+.annual-report #call-to-action, .annual-report .call-to-action {
+	background-color: #d0ae32;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#d0ae32), to(#c59a00));
+	background-image: -webkit-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:    -moz-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:     -ms-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:      -o-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:         linear-gradient(top, #d0ae32, #c59a00);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#d0ae32', EndColorStr='#c59a00');
+}
+.i-p #call-to-action, .i-p .call-to-action {
+	background-color: #d0ae32;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#d0ae32), to(#c59a00));
+	background-image: -webkit-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:    -moz-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:     -ms-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:      -o-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:         linear-gradient(top, #d0ae32, #c59a00);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#d0ae32', EndColorStr='#c59a00');
+}
+.a-z #call-to-action, .a-z .call-to-action {
+	background-color: #d0ae32;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#d0ae32), to(#c59a00));
+	background-image: -webkit-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:    -moz-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:     -ms-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:      -o-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:         linear-gradient(top, #d0ae32, #c59a00);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#d0ae32', EndColorStr='#c59a00');
+}
+#ageing #call-to-action, #ageing .call-to-action {
+	background-color: #c78b50;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#c78b50), to(#b46415));
+	background-image: -webkit-linear-gradient(top, #c78b50, #b46415);
+	background-image:    -moz-linear-gradient(top, #c78b50, #b46415);
+	background-image:     -ms-linear-gradient(top, #c78b50, #b46415);
+	background-image:      -o-linear-gradient(top, #c78b50, #b46415);
+	background-image:         linear-gradient(top, #c78b50, #b46415);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#c78b50', EndColorStr='#b46415');
+}
+#translational #call-to-action, #translational .call-to-action {
+	background-color: #1ad64a;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#1ad64a), to(#15ab3b));
+	background-image: -webkit-linear-gradient(top, #1ad64a, #15ab3b);
+	background-image:    -moz-linear-gradient(top, #1ad64a, #15ab3b);
+	background-image:     -ms-linear-gradient(top, #1ad64a, #15ab3b);
+	background-image:      -o-linear-gradient(top, #1ad64a, #15ab3b);
+	background-image:         linear-gradient(top, #1ad64a, #15ab3b);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#1ad64a', EndColorStr='#15ab3b');
+}
+#infection #call-to-action, #infection .call-to-action {
+	background-color: #00b271;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#00b271), to(#fff));
+	background-image: -webkit-linear-gradient(top, #00b271, #fff);
+	background-image:    -moz-linear-gradient(top, #00b271, #fff);
+	background-image:     -ms-linear-gradient(top, #00b271, #15ab3b);
+	background-image:      -o-linear-gradient(top, #00b271, #15ab3b);
+	background-image:         linear-gradient(top, #00b271, #15ab3b);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#00b271', EndColorStr='#15ab3b');
+}
+#postgraduate #call-to-action, #postgraduate .call-to-action {
+	background-color: #954c30;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#954c30), to(#b98a78));
+	background-image: -webkit-linear-gradient(top, #954c30, #b98a78);
+	background-image:    -moz-linear-gradient(top, #954c30, #b98a78);
+	background-image:     -ms-linear-gradient(top, #954c30, #b98a78);
+	background-image:      -o-linear-gradient(top, #954c30, #b98a78);
+	background-image:         linear-gradient(top, #954c30, #b98a78);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#954c30', EndColorStr='#b98a78');
+}
+#psychology #call-to-action, #psychology .call-to-action {
+	background-color: #cdc09b;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#cdc09b), to(#bcab7a));
+	background-image: -webkit-linear-gradient(top, #cdc09b, #bcab7a);
+	background-image:    -moz-linear-gradient(top, #cdc09b, #bcab7a);
+	background-image:     -ms-linear-gradient(top, #cdc09b, #bcab7a);
+	background-image:      -o-linear-gradient(top, #cdc09b, #bcab7a);
+	background-image:         linear-gradient(top, #cdc09b, #bcab7a);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#cdc09b', EndColorStr='#bcab7a');
+}
+#infection #call-to-action, #infection .call-to-action {
+	background-color: #00b271;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#00b271), to(#58b961));
+	background-image: -webkit-linear-gradient(top, #00b271, #58b961);
+	background-image:    -moz-linear-gradient(top, #00b271, #58b961);
+	background-image:     -ms-linear-gradient(top, #00b271, #58b961);
+	background-image:      -o-linear-gradient(top, #00b271, #58b961);
+	background-image:         linear-gradient(top, #00b271, #58b961);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#00b271', EndColorStr='#58b961');
+}
+#management #call-to-action, #management .call-to-action {
+	background-color: #be6d00;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#be6d00), to(#f5a63d));
+	background-image: -webkit-linear-gradient(top, #be6d00, #f5a63d);
+	background-image:    -moz-linear-gradient(top, #be6d00, #f5a63d);
+	background-image:     -ms-linear-gradient(top, #be6d00, #f5a63d);
+	background-image:      -o-linear-gradient(top, #be6d00, #f5a63d);
+	background-image:         linear-gradient(top, #be6d00, #f5a63d);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#be6d00', EndColorStr='#f5a63d');
+}
+#engineering #call-to-action, #engineering .call-to-action {
+	background-color: #12B93C;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#12B93C), to(#006C1B));
+	background-image: -webkit-linear-gradient(top, #12B93C, #006C1B);
+	background-image:    -moz-linear-gradient(top, #12B93C, #006C1B);
+	background-image:     -ms-linear-gradient(top, #12B93C, #006C1B);
+	background-image:      -o-linear-gradient(top, #12B93C, #006C1B);
+	background-image:         linear-gradient(top, #12B93C, #006C1B);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#12B93C', EndColorStr='#006C1B');
+}
+#electrical-engineering #call-to-action, #electrical-engineering .call-to-action {
+	background-color: #c59c40;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#c59c40), to(#b27b00));
+	background-image: -webkit-linear-gradient(top, #c59c40, #b27b00);
+	background-image:    -moz-linear-gradient(top, #c59c40, #b27b00);
+	background-image:     -ms-linear-gradient(top, #c59c40, #b27b00);
+	background-image:      -o-linear-gradient(top, #c59c40, #b27b00);
+	background-image:         linear-gradient(top, #c59c40, #b27b00);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#c59c40', EndColorStr='#b27b00');
+}
+#risk #call-to-action, #risk .call-to-action {
+	background-color: #D99D55;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#D99D55), to(#BD8D46));
+	background-image: -webkit-linear-gradient(top, #D99D55, #BD8D46);
+	background-image:    -moz-linear-gradient(top, #D99D55, #BD8D46);
+	background-image:     -ms-linear-gradient(top, #D99D55, #BD8D46);
+	background-image:      -o-linear-gradient(top, #D99D55, #BD8D46);
+	background-image:         linear-gradient(top, #D99D55, #BD8D46);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D99D55', EndColorStr='#BD8D46');
+}
+#environmental-science #call-to-action, #environmental-science .call-to-action {
+	background-color: #B27B23;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFBA4B), to(#B27B23));
+	background-image: -webkit-linear-gradient(top, #FFBA4B, #B27B23);
+	background-image:    -moz-linear-gradient(top, #FFBA4B, #B27B23);
+	background-image:     -ms-linear-gradient(top, #FFBA4B, #B27B23);
+	background-image:      -o-linear-gradient(top, #FFBA4B, #B27B23);
+	background-image:         linear-gradient(top, #FFBA4B, #B27B23);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFBA4B', EndColorStr='#B27B23');
+}
+.call-to-action:hover,  #call-to-action:hover {
+	background-color: #ddd;
+	background-image: none;
+	color: #fff;
+}
+.admin .call-to-action:hover,  .admin #call-to-action:hover {
+	background-color: #362300;
+	background-image: none;
+	color: #fff;
+}
+.ref .call-to-action:hover,  .ref #call-to-action:hover {
+	background-color: #003A81;
+	background-image: none;
+	color: #fff;
+}
+
+.excellence .call-to-action:hover,  .excellence #call-to-action:hover {
+	background-color: #003A81;
+	background-image: none;
+	color: #fff;
+}
+
+.friends .call-to-action:hover,  .friends #call-to-action:hover {
+	background-color: #003A81;
+	background-image: none;
+	color: #fff;
+}
+.annual-report .call-to-action:hover,  .annual-report #call-to-action:hover {
+	background-color: #003A81;
+	background-image: none;
+	color: #fff;
+}
+.i-p .call-to-action:hover,  .i-p #call-to-action:hover {
+	background-color: #003A81;
+	background-image: none;
+	color: #fff;
+}
+.a-z .call-to-action:hover,  .a-z #call-to-action:hover {
+	background-color: #003A81;
+	background-image: none;
+	color: #fff;
+}
+.hls .call-to-action:hover,  .hls #call-to-action:hover {
+	background-color: #98876e;
+}
+#ageing .call-to-action:hover,  #ageing #call-to-action:hover {
+	background-color: #684421;
+}
+#translational .call-to-action:hover,  #translational #call-to-action:hover {
+	background-color: #008923;
+}
+#infection .call-to-action:hover,  #infection #call-to-action:hover {
+	background-color: #09C;
+}
+#management .call-to-action:hover,  #management #call-to-action:hover {
+	background-color: #407695;
+}
+#engineering .call-to-action:hover,  #engineering #call-to-action:hover {
+	background-color: #407695;
+}
+#electrical-engineering .call-to-action:hover,  #electrical-engineering #call-to-action:hover {
+	background-color: #664600;
+}
+#risk .call-to-action:hover,  #risk #call-to-action:hover {
+	background-color: #008923;
+}
+#environmental-science .call-to-action:hover,  #environmental-science #call-to-action:hover {
+	background-color: #B27B23;
+}
+.ie7 .call-to-action {
+	color: #fff!important;
+}
+.content .call-to-action {
+	border: medium none;
+	border-radius: 0 0 0 0;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+	font-size: 14px;
+	width: auto;
+	clear: both;
+	float: left;
+}
+aside .call-to-action {
+	text-decoration: none;
+	margin-bottom: 10px!important;
+}
+/* modules */
+
+
+
+#postgraduate table.mres-module-overview {
+	width:100%;
+}
+#postgraduate table.mres-module-overview tr td, table.mres-module-overview tr th {
+	border:1px solid #ccc
+}
+#postgraduate #module-details h2 {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#postgraduate #module-details h3 {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:100%;
+}
+.event-list li {
+	width: 100%;
+}
+.event-list .date {
+	color: #000;
+	float: left;
+	width: auto;
+}
+.event-list .event {
+	float: right;
+	width: 75%
+}
+/* three column module */
+
+
+
+.three-column-module {
+	margin-bottom: 20px;
+	margin-right: 30px;
+	line-height: 1.5em;
+	width: 290px;
+	float: left;
+	color: #666;
+}
+.three-column-module h1,  .three-column-module h3 {
+	font-family: Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	margin-bottom: 10px;
+	font-size: 22px;
+	display: block;
+	color: #666;
+}
+.hls .three-column-module h1,  .hls .three-column-module h3 {
+	color: #35ab40;
+}
+.admin .three-column-module h1,  .admin .three-column-module h3 {
+	color: #003A81;
+}
+.ref .three-column-module h1,  .ref .three-column-module h3 {
+	color: #003A81;
+}
+
+.excellence .three-column-module h1,  .excellence .three-column-module h3 {
+	color: #003A81;
+}
+
+.friends .three-column-module h1,  .friends .three-column-module h3 {
+	color: #003A81;
+}
+.annual-report .three-column-module h1,  .annual-report .three-column-module h3 {
+	color: #003A81;
+}
+.i-p .three-column-module h1,  .i-p .three-column-module h3 {
+	color: #003A81;
+}
+.a-z .three-column-module h1,  .a-z.three-column-module h3 {
+	color: #003A81;
+}
+#ageing .three-column-module h1,  #ageing .three-column-module h3 {
+	color: #215868;
+}
+#translational .three-column-module h1,  #translational .three-column-module h3 {
+	color: #d61a23;
+}
+#engineering .three-column-module h1,  #engineering .three-column-module h3 {
+	color: #B9121B;
+}
+#psychology .three-column-module h1,  #psychology .three-column-module h3 {
+	color: #626c96;
+}
+#infection .three-column-module h1,  #infection .three-column-module h3 {
+	color: #b22200;
+}
+#infection .three-column-module h1,  #infection .three-column-module h3 {
+	color: #004872;
+}
+#risk .three-column-module h1,  #risk .three-column-module h3 {
+	color: #d61a23;
+}
+#environmental-science .three-column-module h1,  #environmental-science .three-column-module h3 {
+	color: #00297A;
+}
+.three-column-module h2 {
+	margin-bottom: 1em;
+	color: #000;
+}
+.three-column-module h3 {
+	font-size: 18px;
+}
+.three-column-module a {
+	border-bottom: 1px solid;
+	text-decoration: none;
+	padding-bottom: 1px;
+}
+.three-column-module ul {
+	margin-left: 0px;
+}
+.three-column-module ul li {
+	margin-bottom: 10px;
+	list-style: none;
+}
+.three-column-module img {
+	background-color: #e1e2e2;
+	margin: 0 20px 10px 0;
+	width: 120px;
+	padding: 5px;
+	float: left;
+	height: auto;
+}
+.last {
+	margin-right: 0px;
+}
+.expander {
+	margin-bottom: 20px;
+}
+#url-loader {
+	display: none;
+}
+#home-page-news ul span {
+	display: none;
+}
+#home-page-events ul a {
+	width: 100%;
+	float: none;
+}
+
+.content {
+	font-size: 14px;
+	width: 440px;
+	color: #666;
+	float: left;
+}
+.content.wide {
+	width: 710px;
+}
+.content h1, .org-chart h1, .gallery-wrapper h1, #main-content .wp-post h2 {
+	font-family: Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	margin-bottom: 10px;
+	font-size: 170%;
+	color: #000;
+}
+.org-chart th {
+	padding:5px;
+}
+.hls .content h1,  .hls .org-chart h1,  .hls .gallery-wrapper h1,  .hls #main-content .wp-post h2 {
+	color: #000000;
+}
+.admin .content h1,  .admin .org-chart h1,  .admin .gallery-wrapper h1,  .admin #main-content .wp-post h2 {
+	color: #003A81;
+}
+.ref .content h1,  .ref .org-chart h1,  .ref .gallery-wrapper h1,  .ref #main-content .wp-post h2 {
+	color: #003A81;
+}
+
+.excellence .content h1,  .excellence .org-chart h1,  .excellence .gallery-wrapper h1,  .excellence #main-content .wp-post h2 {
+	color: #003A81;
+}
+
+
+.friends .content h1,  .friends .org-chart h1,  .friends .gallery-wrapper h1,  .friends #main-content .wp-post h2 {
+	color: #003A81;
+}
+.annual-report .content h1,  .annual-report .org-chart h1,  .annual-report .gallery-wrapper h1,  .annual-report #main-content .wp-post h2 {
+	color: #003A81;
+}
+.i-p .content h1,  .i-p .org-chart h1,  .i-p .gallery-wrapper h1,  .i-p #main-content .wp-post h2 {
+	color: #003A81;
+}
+.a-z .content h1,  .a-z .org-chart h1,  .a-z .gallery-wrapper h1,  .a-z #main-content .wp-post h2 {
+	color: #003A81;
+}
+#ageing .content h1,  #ageing .org-chart h1,  #ageing .gallery-wrapper h1,  #ageing #main-content .wp-post h2 {
+	color: #215868;
+}
+#translational .content h1,  #translational .org-chart h1,  #translational .gallery-wrapper h1,  #translational #main-content .wp-post h2 {
+	color: #d61a23;
+}
+#psychology .content h1,  #psychology .org-chart h1,  #psychology .gallery-wrapper h1,  #psychology #main-content .wp-post h2 {
+	color: #626c96;
+}
+#infection .content h1,  #infection .org-chart h1,  #infection .gallery-wrapper h1,  #infection #main-content .wp-post h2 {
+	color: #b22200;
+}
+#management .content h1,  #management .org-chart h1,  #management .gallery-wrapper h1,  #management #main-content .wp-post h2 {
+	color: #004872;
+	font-style: normal;
+}
+#engineering .content h1,  #engineering .org-chart h1,  #engineering .gallery-wrapper h1,  #engineering #main-content .wp-post h2 {
+	color: #B9121B;
+	font-style: normal;
+}
+#electrical-engineering .content h1,  #electrical-engineering .org-chart h1,  #electrical-engineering .gallery-wrapper h1,  #electrical-engineering #main-content .wp-post h2 {
+	color: #002366;
+}
+#risk .content h1,  #risk .org-chart h1,  #risk .gallery-wrapper h1,  #risk #main-content .wp-post h2 {
+	color: #353535;
+}
+#environmental-science.content h1,  #environmental-science .org-chart h1,  #environmental-science .gallery-wrapper h1,  #environmental-science #main-content .wp-post h2 {
+	color: #00297A;
+}
+.content h2, .content h3, .content h4 {
+	font-family: Helvetica, Arial, sans-serif;
+	margin-bottom: 10px;
+	font-size: 125%;
+	color: #000;
+}
+.content h3 {
+	font-size: 110%;
+}
+.content h4 {
+	font-size: 100%;
+	font-style: italic;
+}
+.content p {
+	margin-bottom: 1em;
+}
+.content ul, .content ol {
+	margin-bottom: 1em;
+}
+
+.content img {
+	border: 10px solid #e1e2e2;
+	height: auto!important; /* important rule HAS to be here to over-ride inline CSS inserted by T4 */
+	margin-bottom: 1em;
+	margin-right: 1em;
+	max-width: 440px;
+}
+.hls .content img {
+	border: 10px solid #d6eed8;
+}
+.admin .content img {
+	border: 10px solid #f2f5f9;
+}
+.ref .content img {
+	border: 10px solid #f2f5f9;
+}
+
+.excellence .content img {
+	border: 10px solid #f2f5f9;
+}
+
+
+.friends .content img {
+	border: 10px solid #f2f5f9;
+}
+.annual-report .content img {
+	border: 10px solid #f2f5f9;
+}
+.i-p .content img {
+	border: 10px solid #f2f5f9;
+}
+.a-z.content img {
+	border: 10px solid #f2f5f9;
+}
+#ageing .content img {
+	border: 10px solid #e8eef0;
+}
+#translational .content img {
+	border: 10px solid #fbe8e9;
+}
+#psychology .content img {
+	border: 10px solid #e4e7f2;
+}
+#infection .content img {
+	border: 10px solid #ecc8bf;
+}
+#risk .content img {
+	border: 10px solid #bfbfe3;
+}
+#environmental-science .content img {
+	border: 10px solid #7F99CC;
+}
+.content.wide img {
+	margin-right: 1em;
+	max-width: 660px;
+}
+.content img.float-left {
+	margin-right: 1em;
+}
+.content img.float-right {
+	margin-left: 1em;
+}
+.content img.border {
+	border: 10px solid #e1e2e2;
+	max-width: 440px;
+	height: auto;
+}
+.hls .content img.border {
+	border: 10px solid #e1e2e2;
+}
+.inside img.breakout {
+	margin: 0 0 20px 20px;
+}
+
+#veterinary blockquote {
+	background:none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding:0;
+	border-left:0;
+	margin:0;
+	width:auto;
+	float: none;
+}
+#veterinary blockquote:before {
+	background: none;
+	height: 0px;
+	content: "";
+	float: none;
+	width: auto;
+}
+.content iframe {
+	border: 10px solid #ddd;
+	margin-bottom: 1em;
+	max-width: 460px;
+}
+.hls .content iframe {
+	border: 10px solid #d6eed8;
+}
+.admin .content iframe {
+	border: 10px solid #f2f5f9;
+}
+.ref .content iframe {
+	border: 10px solid #f2f5f9;
+}
+
+.excellence .content iframe {
+	border: 10px solid #f2f5f9;
+}
+
+
+.friends .content iframe {
+	border: 10px solid #f2f5f9;
+}
+.annual-report .content iframe {
+	border: 10px solid #f2f5f9;
+}
+.i-p .content iframe {
+	border: 10px solid #f2f5f9;
+}
+.a-z .content iframe {
+	border: 10px solid #f2f5f9;
+}
+#ageing .content iframe {
+	border: 10px solid #e8eef0;
+}
+#translational .content iframe {
+	border: 10px solid #fbe8e9;
+}
+#psychology .content iframe {
+	border: 10px solid #e4e7f2;
+}
+#infection .content iframe {
+	border: 10px solid #ecc8bf;
+}
+#management .content iframe {
+	border: 10px solid #e5ecf1;
+}
+#physics .content iframe {
+	border: 10px solid #DBE8DD;
+}
+#electrical-engineering .content iframe {
+	border: 10px solid #e5e9ef;
+}
+#risk .content iframe {
+	border: 10px solid #d7dbea;
+}
+#environmental-science .content iframe {
+	border: 10px solid #7F99CC;
+}
+#kta .content iframe {
+	border: 10px solid #e5e5ff;
+}
+.content .basic-table {
+	border: 3px solid #eee;
+	margin-bottom: 1em;
+	width: 90%;
+}
+.content .basic-table caption {
+	display:none;
+}
+.content .basic-table th {
+	border: 2px solid #eee;
+	background-color: #eee;
+	text-align: left;
+	padding: 5px;
+}
+.content .basic-table td {
+	border: 2px solid #eee;
+	padding: 5px;
+}
+
+aside {
+	font-size: 14px;
+	color: #666;
+	float: right;
+	width: 210px;
+	margin-right: 20px;
+}
+.ie6 aside {
+	font-size: 14px;
+	color: #666;
+	float: right;
+	width: 190px;
+	margin-right: 0px;
+}
+aside h1,  aside h2,  aside h3,  aside h4 {
+	font-family: Helvetica, Arial, sans-serif;
+	margin-bottom: 10px;
+	font-size: 125%;
+	color: #000;
+}
+aside h2 {
+	font-size: 125%;
+}
+aside h3 {
+	font-size: 110%;
+}
+aside h4 {
+	font-style: italic;
+	font-size: 100%;
+}
+aside p {
+	margin-bottom: 1em;
+	display: block;
+}
+aside ul, aside ol {
+	margin-bottom: 1em;
+}
+aside img {
+	height: auto!important;
+	margin-bottom: 1em;
+	max-width: 210px;
+	background: #ddd;
+	padding: 10px;
+}
+#ref aside img#logo {
+	background: #fff!important;
+}
+
+#excellence aside img#logo {
+	background: #fff!important;
+}
+
+
+#friends aside img#logo {
+	background: #fff!important;
+}
+.friends aside img {
+	background: #E5EBF2;
+}
+.hls aside img {
+	background: #d6eed8;
+}
+#ageing aside img {
+	background: #E8EEF0;
+}
+#translational aside img {
+	background: #fbe8e9;
+}
+#psychology aside img {
+	background: #E4E7F2;
+}
+#smartcard aside img {
+	background: #FFFFFF;
+}
+#infection aside img {
+	background: #ECC8BF;
+}
+#management aside img {
+	background: #80b8d9;
+}
+#physics aside img {
+	background: #DBE8DD;
+}
+#engineering aside img {
+	background: #E1E2E2;
+}
+#ageing .content iframe {
+	border: 10px solid #e8eef0;
+}
+#translational .content iframe {
+	border: 10px solid #fbe8e9;
+}
+#psychology .content iframe {
+	border: 10px solid #e4e7f2;
+}
+#infection .content iframe {
+	border: 10px solid #ecc8bf;
+}
+#infection .content iframe {
+	border: 10px solid #e5e9ef;
+}
+#risk aside img {
+	background: #d7dbea;
+}
+#chemistry aside img {
+	background: #7ABAF2;
+}
+#environmental-science aside img {
+	background: #E1E2E2;
+}
+#kta aside img {
+	background: #e5e5ff;
+}
+#kta img#esprc {
+	background: #fff;
+}
+aside figure {
+	background: #ddd;
+	margin-bottom: 1em;
+	float: left;
+	clear: both;
+}
+.hls aside figure {
+	background: #d6eed8;
+}
+aside figure img {
+	margin-bottom: 0px;
+	max-width: 210px;
+	height: auto;
+}
+.hls aside figure img {
+	background: transparent;
+}
+aside figcaption {
+	padding: 0px 10px 10px 10px;
+	color: #000;
+}
+/* ----- research group page ----- */
+
+/* ----- research group page ----- */
+
+
+#sociology-social-policy-and-criminology #profile-categories li, #sociology-social-policy-and-criminology .profile-categories li, #sociology-social-policy-and-criminology .research-group-categories li, #sociology-social-policy-and-criminology #tabbed-navigation li {
+    border-bottom: 5px solid #1B2A36;
+    float: left;
+    list-style: none outside none;
+    margin-right: 10px; }
+
+
+#research-group .profile-categories {
+	border-bottom: 23px solid #c5e7c8;
+	position: relative;
+}
+.profile-categories ul {
+	position: absolute;
+	margin: 0px;
+	width: 100%;
+	top: 31px;
+	left: 0px;
+}
+.profile-categories ul li a {
+	padding: 4px 10px;
+	color: #000;
+}
+.memberlist {
+}
+.memberlist li .name {
+	float:left;
+}
+.memberlist li .email {
+	float:right;
+}
+#contact-details p {
+	padding: 8px 10px;
+	background: #ddd;
+	width: 580px;
+	float: left;
+	clear: both;
+}
+.hls #contact-details p {
+	background: #EAF6EB;
+}
+#ageing #contact-details p {
+	background: #e8eef0;
+}
+#chemistry #contact-details p {
+	background: #7ABAF2;
+}
+#translational #contact-details p {
+	background: #fbe8e9;
+}
+#infection #contact-details p {
+	background: #ecc8bf;
+}
+#management #contact-details p {
+	background: #e5ecf1;
+}
+#electrical-engineering #contact-details p {
+	background: #e5e9ef;
+}
+#risk #contact-details p {
+	background: #d7dbea;
+}
+#environmental-sciences #contact-details p {
+	background: #fbe8e9;
+}
+#mathematical-sciences #contact-details p {
+	background: #E5CBA2;
+}
+#contact-details p span {
+	float: left;
+}
+#contact-details p span + span {
+	float: right;
+}
+#management #research-group h1:first-child,  #management #research-group ul.research-group-categories {
+	display: none;
+}
+#chemistry #research-group h1:first-child,  #chemistry #research-group ul.research-group-categories {
+	display: none;
+}
+#school-psychology #research-group h1:first-child,  #school-psychology #research-group ul.research-group-categories {
+	display: none;
+}
+#mathematical-sciences #research-group h1:first-child,  #mathematical-sciences #research-group ul.research-group-categories {
+	display: none;
+}
+#environmental-science #research-group h1:first-child,  #environmental-science #research-group ul.research-group-categories {
+	display: none;
+}
+#chemistry #research-group h1:first-child,  #chemistry #research-group ul.research-group-categories {
+	display: none;
+}
+
+#law #research-group h1:first-child,  #law #research-group ul.research-group-categories {
+	display: none;
+}
+
+#ssp-and-c #research-group h1:first-child,  #ssp-and-c #research-group ul.research-group-categories {
+	display: none;
+}
+
+#physics #research-group h1,  #physics #research-group ul.research-group-categories {
+	display: none;
+}
+.research-right {
+	font-size: 14px;
+	color: #666;
+	float: right;
+	width: 210px;
+	margin-top: 90px;
+}
+aside.research-sidebar {
+	font-size: 14px;
+	color: #666;
+	float: right;
+	width: 210px;
+	margin-right: 0px;
+}
+aside.research-sidebar img {
+	background: none!important;
+	padding: 0px !important;
+}
+/* ----- news list page ----- */
+
+/* ----- news list page ----- */
+
+
+
+
+
+#news-list-sort li {
+	float: left;
+	clear: both;
+	width: 440px;
+}
+#news-list-sort span {
+	float: left;
+	width: 17%;
+}
+#environmental-science #news-list-sort span {
+	float: left;
+	width: 17%;
+	color:#000;
+}
+#news-list-sort a {
+	float: right;
+	width: 80%;
+}
+#engineering #news-list-sort li, #engineering #research-group-list li {
+	background:#fef0f3;
+}
+#engineering #news-list-sort li a, #engineering #research-group-list li a {
+	color:#000;
+}
+ #engineering #news-list-sort li:nth-child(odd), #engineering #research-group-list li:nth-child(odd) {
+background:#FCDAE0;
+}
+#management #news-list-sort li, #management #research-group-list li {
+	background:#e6f1f7;
+}
+#management #news-list-sort li a, #management #research-group-list li a {
+	color:#000;
+}
+ #management #news-list-sort li:nth-child(odd), #management #research-group-list li:nth-child(odd) {
+background:#c0dbec;
+}
+#chemistry #news-list-sort li, #chemistry #research-group-list li {
+	background:#ADD5F7;
+}
+#chemistry #news-list-sort li a, #chemistry #research-group-list li a {
+	color:#000;
+}
+ #chemistry #news-list-sort li:nth-child(odd), #chemistry #research-group-list li:nth-child(odd) {
+background:#7ABAF2;
+}
+#environmental-science #news-list-sort li, #environmental-science #research-group-list li {
+	background:#7f99cc;
+}
+#environmental-science #news-list-sort li a, #environmental-science #research-group-list li a {
+	color:#000;
+}
+ #environmental-science #news-list-sort li:nth-child(odd), #environmental-science #research-group-list li:nth-child(odd) {
+background:#bfcce5;
+}
+
+#sociology-social-policy-and-criminology #news-list-sort li a, #engineering #research-group-list li a {
+	color:#000;
+}
+
+
+.meta {
+	font-weight: bold;
+}
+ img [src*="feed-icon"] {
+ margin: 0 10px 10px 0;
+}
+/* comment button */
+
+
+
+.ie8 .ie-comment, .ie7 .ie-comment {
+	width: 210px!important;
+	position: relative;
+	left: 40px;
+}
+/* ----- events list page ----- */
+
+/* ----- events list page ----- */
+
+
+
+
+
+.content .event-list,  .content .event-list li {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.content .event-list li {
+	padding: 10px;
+	float: left;
+	clear: both;
+}
+#chemistry .event-list li.odd {
+	background-color:#7ABAF2;
+}
+#chemistry .event-list li {
+	background: #ADD5F7;
+}
+#chemistry .event-list a {
+	color:#000000;
+}
+.hls .content .event-list li,  .hls #news-list-sort li {
+	background: #d6eed8;
+}
+ .hls .content .event-list li:nth-child(odd),  .hls #news-list-sort li:nth-child(odd) {
+ background: #eaf6eb;
+}
+.hls .content .event-list li.odd,  .hls #news-list-sort li.odd {
+	background: #eaf6eb;
+}
+.event-list span {
+	float: left;
+	width: 17%;
+}
+.event-list a {
+	float: right;
+	width: 80%;
+}
+#event ul, #event li {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+#event li {
+	margin-bottom: 0.5em;
+}
+#event ul {
+	margin-bottom: 1em;
+}
+/* ----- institute pgr page ----- */
+
+/* ----- institute pgr page ----- */
+
+
+
+/* styles to give a bit of pgr falour to specific pages */
+
+#pgr-search h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-bottom: 10px;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 20px;
+	color: #fff
+}
+#pgr-search p {
+	font-size: 12px;
+	width: 100%;
+}
+#pgr-search input[type=text] {
+	margin-bottom: 10px;
+	width: 200px;
+	border: none;
+	padding: 5px;
+}
+#pgr-search input[type=submit] {
+	background: #ccc;
+	border: none;
+	height: 30px;
+	width: 70px;
+	color: #fff;
+	float: right;
+	color: #666;
+}
+/* ----- staff profiles and research groups ----- */
+
+/* ----- staff profiles and research groups ----- */
+
+
+
+/* staff list */
+
+
+
+.org-chart {
+	float: left;
+	clear: both;
+}
+.org-chart table {
+	margin-bottom: 2em;
+	width: 100%;
+}
+.org-chart table td {
+	padding: 5px 10px;
+	font-size: 1em;
+	width: 130px;
+}
+ .org-chart table td:nth-child(4) {
+ width: 240px;
+}
+ .org-chart table td:nth-child(3) {
+}
+.org-chart table tr {
+	background-color: #e1e2e2;
+}
+ .org-chart table tr:nth-child(odd) {
+ background-color: #e1e2e2;
+}
+ .org-chart table tr:nth-child(even) {
+ background-color: #ddd;
+}
+/* hls */
+
+
+
+	.hls .org-chart table tr {
+	background-color: #d6eed8;
+}
+/* had to include these as 2 rules to make it work in IE! */
+
+	.hls .org-chart table tr.odd {
+	background-color: #eaf6eb;
+}
+ .hls .org-chart table tr:nth-child(odd) {
+ background-color: #eaf6eb;
+}
+.ie7 .hls .org-chart table tr td {
+	background: #d6eed8;
+}
+.ie7 .hls .org-chart table tr.odd td {
+	background: #eaf6eb;
+}
+
+/* sociology, social policy and criminology */
+
+
+
+	.sociology-social-policy-and-criminology.org-chart table tr {
+	background-color: #d6eed8;
+}
+/* had to include these as 2 rules to make it work in IE! */
+
+	.sociology-social-policy-and-criminology .org-chart table tr.odd {
+	background-color: #eaf6eb;
+}
+ .sociology-social-policy-and-criminology .org-chart table tr:nth-child(odd) {
+ background-color: #eaf6eb;
+}
+.ie7 .sociology-social-policy-and-criminology .org-chart table tr td {
+	background: #d6eed8;
+}
+.ie7 .sociology-social-policy-and-criminology .org-chart table tr.odd td {
+	background: #eaf6eb;
+}
+
+
+
+/* admin */
+
+
+
+	.admin .org-chart table tr {
+	background-color: #f2f5f9;
+}
+/* had to include these as 2 rules to make it work in IE! */
+
+	.admin .org-chart table tr.odd {
+	background-color: #e5ebf2;
+}
+ .admin .org-chart table tr:nth-child(odd) {
+ background-color: #e5ebf2;
+}
+.ie7 .admin .org-chart table tr td {
+	background: #f2f5f9;
+}
+.ie7 .admin .org-chart table tr.odd td {
+	background: #e5ebf2;
+}
+/*ref */
+
+
+
+	.ref .org-chart table tr {
+	background-color: #f2f5f9;
+}
+
+	.excellence .org-chart table tr {
+	background-color: #f2f5f9;
+}
+
+.friends .org-chart table tr {
+	background-color: #f2f5f9;
+}
+.annual-report .org-chart table tr {
+	background-color: #f2f5f9;
+}
+.i-p .org-chart table tr {
+	background-color: #f2f5f9;
+}
+.a-z .org-chart table tr {
+	background-color: #f2f5f9;
+}
+/* had to include these as 2 rules to make it work in IE! */
+
+	.ref .org-chart table tr.odd {
+	background-color: #e5ebf2;
+}
+ .ref .org-chart table tr:nth-child(odd) {
+ background-color: #e5ebf2;
+}
+
+	.excellence .org-chart table tr.odd {
+	background-color: #e5ebf2;
+}
+ .excellence .org-chart table tr:nth-child(odd) {
+ background-color: #e5ebf2;
+}
+
+
+.friends .org-chart table tr.odd {
+	background-color: #e5ebf2;
+}
+ .friends .org-chart table tr:nth-child(odd) {
+ background-color: #e5ebf2;
+}
+.i-p .org-chart table tr.odd {
+	background-color: #e5ebf2;
+}
+ .i-p .org-chart table tr:nth-child(odd) {
+ background-color: #e5ebf2;
+}
+.ie7 .ref .org-chart table tr td {
+	background: #f2f5f9;
+}
+.ie7 .ref .org-chart table tr.odd td {
+	background: #e5ebf2;
+}
+
+.ie7 .excellence .org-chart table tr td {
+	background: #f2f5f9;
+}
+.ie7 .excellence .org-chart table tr.odd td {
+	background: #e5ebf2;
+}
+
+
+.ie7 .friends .org-chart table tr td {
+	background: #f2f5f9;
+}
+.ie7 .friends .org-chart table tr.odd td {
+	background: #e5ebf2;
+}
+.ie7 .i-p .org-chart table tr td {
+	background: #f2f5f9;
+}
+.ie7 .i-p .org-chart table tr.odd td {
+	background: #e5ebf2;
+}
+.a-z .org-chart table tr.odd {
+	background-color: #e5ebf2;
+}
+ .a-z .org-chart table tr:nth-child(odd) {
+ background-color: #e5ebf2;
+}
+.ie7 .a-z .org-chart table tr td {
+	background: #f2f5f9;
+}
+.ie7 .a-z .org-chart table tr.odd td {
+	background: #e5ebf2;
+}
+/* ageing */
+
+
+
+	#ageing .org-chart table tr {
+	background-color: #e8eef0;
+}
+/* had to include these as 2 rules to make it work in IE! */
+
+	#ageing .org-chart table tr.odd {
+	background-color: #c7d5d9;
+}
+ #ageing .org-chart table tr:nth-child(odd) {
+ background-color: #c7d5d9;
+}
+.ie7 #ageing .org-chart table tr td {
+	background: #e8eef0;
+}
+.ie7 #ageing .org-chart table tr.odd td {
+	background: #c7d5d9;
+}
+/* translational */
+
+
+
+	#translational .org-chart table tr {
+	background-color: #f9ddde;
+}
+/* had to include these as 2 rules to make it work in IE! */
+
+	#translational .org-chart table tr.odd {
+	background-color: #fdf3f4;
+}
+ #translational .org-chart table tr:nth-child(odd) {
+ background-color: #fdf3f4;
+}
+.ie7 #translational .org-chart table tr td {
+	background: #f9ddde;
+}
+.ie7 #translational .org-chart table tr.odd td {
+	background: #fdf3f4;
+}
+/* psychology */
+
+
+
+	#psychology .org-chart table tr {
+	background-color: #f1f3f8;
+}
+/* had to include these as 2 rules to make it work in IE! */
+
+	#psychology .org-chart table tr.odd {
+	background-color: #e4e7f2;
+}
+ #psychology .org-chart table tr:nth-child(odd) {
+ background-color: #e4e7f2;
+}
+.ie7 #psychology .org-chart table tr td {
+	background: #e4e7f2;
+}
+.ie7 #psychology .org-chart table tr.odd td {
+	background: #e4e7f2;
+}
+/* chemistry */
+
+
+
+	#chemistry .org-chart table tr {
+	background-color: #ADD5F7;
+}
+/* had to include these as 2 rules to make it work in IE! */
+
+	#chemistry .org-chart table tr.odd {
+	background-color: #7ABAF2;
+}
+ #chemistry .org-chart table tr:nth-child(odd) {
+ background-color: #7ABAF2;
+}
+.ie7 #chemistry .org-chart table tr td {
+	background: #ADD5F7;
+}
+.ie7 #chemistry .org-chart table tr.odd td {
+	background: #7ABAF2;
+}
+#chemistry .org-chart a {
+	color:#000000;
+}
+/* infection */
+
+
+
+	#infection .org-chart table tr {
+	background-color: #ecc8bf;
+	color:#000;
+}
+#infection .org-chart table td a {
+	color:#000000;
+}
+/* had to include these as 2 rules to make it work in IE! */
+
+	#infection .org-chart table tr.odd {
+	background-color: #DAA498;
+	color:#000;
+}
+ #infection .org-chart table tr:nth-child(odd) {
+ background-color:#DAA498;
+}
+.ie7 #infection .org-chart table tr td {
+	background: #DAA498;
+}
+.ie7 #infection .org-chart table tr.odd td {
+	background: #ecc8bf;
+}
+/* medicine */
+
+
+
+	#medicine .org-chart table tr {
+	background-color: #bfc9d4;
+}
+/* had to include these as 2 rules to make it work in IE! */
+
+	#medicine .org-chart table tr.odd {
+	background-color: #e4e7f2;
+}
+ #medicine .org-chart table tr:nth-child(odd) {
+ background-color: #e4e7f2;
+}
+.ie7 #medicine .org-chart table tr td {
+	background: #e4e7f2;
+}
+.ie7 #medicine .org-chart table tr.odd td {
+	background: #e4e7f2;
+}
+/* management-school */
+
+
+
+	#management .org-chart table th {
+	padding:5px 0;
+	text-align:left;
+	background: #FFF;
+	font-size:1.2em;
+	color:#000;
+}
+#management .org-chart table tr {
+	background-color: #e6f1f7;
+}
+/* had to include these as 2 rules to make it work in IE! */
+
+	#management .org-chart table tr.odd {
+	background-color: #c0dbec;
+}
+ #management .org-chart table tr:nth-child(odd) {
+ background-color:#c0dbec;
+}
+.ie7 #management .org-chart table tr td {
+	background: #e6f1f7;
+}
+.ie7 #management .org-chart table tr.odd td {
+	background: #c0dbec;
+}
+#management table.moduleTable {
+	margin:0 0 10px;
+	border:1px solid #80B8D9;
+}
+#management table.moduleTable td {
+	padding:0px;
+}
+#management table.moduleTable h3 {
+	padding:5px;
+	background-color:#c0dbec;
+}
+#management table.moduleTable td.whitetext h3 {
+	margin-bottom:0px;
+}
+#management table.moduleTable td p {
+	padding:10px;
+}
+/* physics-department */
+
+
+
+	#physics .org-chart table th {
+	padding:5px 0;
+	text-align:left;
+	background: #FFF;
+	font-size:1.2em;
+	color:#000;
+}
+#physics .org-chart table tr {
+	background-color: #C5DAC8;
+}
+/* had to include these as 2 rules to make it work in IE! */
+
+	#physics .org-chart table tr.odd {
+	background-color: #DBE8DD;
+}
+ #physics .org-chart table tr:nth-child(odd) {
+ background-color:#DBE8DD;
+}
+.ie7 #physics .org-chart table tr td {
+	background: #C5DAC8;
+}
+.ie7 #physics .org-chart table tr.odd td {
+	background: #DBE8DD;
+}
+
+/* sociology-social-policy-and-criminology */
+
+
+
+	#sociology-social-policy-and-criminology .org-chart table th {
+	padding:5px 0;
+	text-align:left;
+	background: #FFF;
+	font-size:1.2em;
+	color:#000;
+}
+#sociology-social-policy-and-criminology .org-chart table tr {
+	background-color: #E99098;
+}
+/* had to include these as 2 rules to make it work in IE! */
+
+	#sociology-social-policy-and-criminology .org-chart table tr.odd {
+	background-color: #eabcc0;
+}
+ #sociology-social-policy-and-criminology .org-chart table tr:nth-child(odd) {
+ background-color:#eabcc0;
+}
+.ie7 #sociology-social-policy-and-criminology .org-chart table tr td {
+	background: #E99098;
+}
+.ie7 #sociology-social-policy-and-criminology .org-chart table tr.odd td {
+	background: #eabcc0;
+}
+
+#sociology-social-policy-and-criminology .org-chart table tr a {
+color:#444;
+}
+
+
+#engineering .org-chart table th {
+	padding:5px 0;
+	text-align:left;
+	background: #FFF;
+	font-size:1.2em;
+	color:#000;
+}
+#engineering .org-chart table tr {
+	background-color: #fef0f3;
+}
+/* had to include these as 2 rules to make it work in IE! */
+
+	#engineering .org-chart table tr.odd {
+	background-color: #FCDAE0;
+}
+ #engineering .org-chart table tr:nth-child(odd) {
+ background-color:#FCDAE0;
+}
+.ie7 #engineering .org-chart table tr td {
+	background: #fef0f3;
+}
+.ie7 #engineering .org-chart table tr.odd td {
+	background: #FCDAE0;
+}
+#school-psychology table.moduleTable {
+	margin:0 0 10px;
+	border:1px solid #000;
+}
+#school-psychology table.moduleTable td {
+	padding:0px;
+}
+#school-psychology table.moduleTable h3 {
+	padding:5px;
+	background-color:#BAAF90;
+}
+#school-psychology table.moduleTable td.whitetext h3 {
+	margin-bottom:0px;
+}
+#school-psychology table.moduleTable td p {
+	padding:10px;
+}
+/* electrical-engineering */
+
+
+
+	#electrical-engineering .org-chart table tr {
+	background-color: #e5e9ef;
+}
+/* had to include these as 2 rules to make it work in IE! */
+
+	#electrical-engineering .org-chart table tr.odd {
+	background-color: #ccd3e0;
+}
+ #electrical-engineering .org-chart table tr:nth-child(odd) {
+ background-color:#ccd3e0;
+}
+.ie7 #electrical-engineering .org-chart table tr td {
+	background: #ccd3e0;
+}
+.ie7 #electrical-engineering .org-chart table tr.odd td {
+	background: #e5e9ef;
+}
+/* risk and uncertainty */
+
+
+
+	#risk .org-chart table tr {
+	background-color: #EBEDF3;
+}
+/* had to include these as 2 rules to make it work in IE! */
+
+	#risk .org-chart table tr.odd {
+	background-color: #d7dbea;
+}
+ #risk .org-chart table tr:nth-child(odd) {
+ background-color: #d7dbea;
+}
+.ie7 #risk .org-chart table tr td {
+	background: #EBEDF3;
+}
+.ie7 #risk .org-chart table tr.odd td {
+	background: #d7dbea;
+}
+#kta .org-chart table tr {
+	background-color: #ccccff;
+}
+/* had to include these as 2 rules to make it work in IE! */
+
+	#kta .org-chart table tr.odd {
+	background-color: #e5e5ff;
+}
+ #kta .org-chart table tr:nth-child(odd) {
+ background-color: #e5e5ff;
+}
+.ie7 #kta .org-chart table tr td {
+	background: #ccccff;
+}
+.ie7 #kta .org-chart table tr.odd td {
+	background: #e5e5ff;
+}
+#environmental-science .org-chart table tr {
+	background-color: #e4edfd;
+}
+/* had to include these as 2 rules to make it work in IE! */
+
+	#environmental-science .org-chart table tr.odd {
+	background-color: #c5d2eb;
+}
+ #environmental-science .org-chart table tr:nth-child(odd) {
+ background-color: #c5d2eb;
+}
+.ie7 #environmental-science .org-chart table tr td {
+	background: #e4edfd;
+}
+.ie7 #environmental-science .org-chart table tr.odd td {
+	background: #c5d2eb;
+}
+.org-chart h3 {
+	font-family: Helvetica, Arial, sans-serif;
+	margin-bottom: 10px;
+	font-size: 125%;
+	color: #000;
+}
+#tabbed-content + .org-chart h1 {
+	display: none;
+}
+/* individual profiles + tabbed navigation */
+
+
+
+#staff-profile,  #business-profile,  #research-profile,  #teaching-profile,  #role-profile {
+	width: 600px;
+	clear: both;
+}
+#profile-categories,  .profile-categories,  .research-group-categories,  #tabbed-navigation ul {
+	background: #ddd;
+	margin: 0 0 20px 0;
+	font-size: 12px;
+	width: 710px;
+	float: left;
+}
+
+#sociology-social-policy-and-criminology #profile-categories,  #sociology-social-policy-and-criminology .profile-categories,  #sociology-social-policy-and-criminology .research-group-categories,  #sociology-social-policy-and-criminology #tabbed-navigation ul {
+	background: #D32232;
+	margin: 0 0 20px 0;
+	font-size: 12px;
+	width: 680px;
+	float: left;
+}
+#sociology-social-policy-and-criminology .profile-categories li.active-category a {
+	background: rgba(0, 0, 0, 0.5);
+}
+#sociology-social-policy-and-criminology #publications-list li,  #sociology-social-policy-and-criminology #professional-memberships li,  #sociology-social-policy-and-criminology #personal-distinctions li,  #sociology-social-policy-and-criminology #research-groups li,  #sociology-social-policy-and-criminology #research-grants li,  #sociology-social-policy-and-criminology #editorial-roles li,  #sociology-social-policy-and-criminology #external-examinations li {
+	background: #E99098;
+	color: #000;
+}
+#sociology-social-policy-and-criminology #publications-list li.odd,  #sociology-social-policy-and-criminology #professional-memberships li.odd,  #sociology-social-policy-and-criminology #personal-distinctions li.odd,  #sociology-social-policy-and-criminology #research-groups li.odd,  #sociology-social-policy-and-criminology #research-grants li.odd,  #sociology-social-policy-and-criminology #editorial-roles li.odd,  #sociology-social-policy-and-criminology #external-examinations li.odd {
+	background: #EABCC0;
+}
+
+#sociology-social-policy-and-criminology #profile-categories li a, #sociology-social-policy-and-criminology .profile-categories li a, #sociology-social-policy-and-criminology .research-group-categories li a, #sociology-social-policy-and-criminology #tabbed-navigation li a {
+	text-decoration: none;
+	padding: 8px 10px;
+	display: block;
+	color: #FFF;
+	/*css3*/
+
+	-webkit-transition: color 0.3s ease;
+	-webkit-transition: background 0.3s ease;
+}
+
+#chemistry #profile-categories,  #chemistry .profile-categories,  #chemistry .research-group-categories,  #chemistry #tabbed-navigation ul {
+	background: #7ABAF2;
+	margin: 0 0 20px 0;
+	font-size: 12px;
+	width: 680px;
+	float: left;
+}
+#chemistry .profile-categories li.active-category a {
+	background: #7ABAF2;
+}
+#chemistry #publications-list li,  #chemistry #professional-memberships li,  #chemistry #personal-distinctions li,  #chemistry #research-groups li,  #chemistry #research-grants li,  #chemistry #editorial-roles li,  #chemistry #external-examinations li {
+	background: #ADD5F7;
+}
+#chemistry #publications-list li.odd,  #chemistry #professional-memberships li.odd,  #chemistry #personal-distinctions li.odd,  #chemistry #research-groups li.odd,  #chemistry #research-grants li.odd,  #chemistry #editorial-roles li.odd,  #chemistry #external-examinations li.odd {
+	background: #7ABAF2;
+}
+#physics #publications-list li,  #physics #professional-memberships li,  #physics #personal-distinctions li,  #physics #research-groups li,  #physics #research-grants li,  #physics #editorial-roles li,  #physics #external-examinations li {
+	background: #C5DAC8;
+}
+#physics #publications-list li.odd,  #physics #professional-memberships li.odd,  #physics #personal-distinctions li.odd,  #physics #research-groups li.odd,  #physics #research-grants li.odd,  #physics #editorial-roles li.odd,  #physics #external-examinations li.odd {
+	background: #DBE8DD;
+}
+.hls #profile-categories,  .hls .profile-categories,  .hls .research-group-categories,  .hls #tabbed-navigation ul {
+	background: #eaf6eb;
+}
+#environmental-science #profile-categories,  #environmental-science .profile-categories,  #environmental-science .research-group-categories,  #environmental-science #tabbed-navigation ul {
+	background: #e5eaf5;
+	color:#000
+}
+#environmental-science #tabbed-navigation ul li a {
+	color:#000;
+}
+#translational #profile-categories,  #translational .profile-categories,  #translational .research-group-categories  #translational #tabbed-navigation ul {
+	background: #fbe8e9;
+}
+#ageing #profile-categories,  #ageing .profile-categories,  #ageing .research-group-categories,  #ageing #tabbed-navigation ul {
+	background: #e8eef0;
+}
+#psychology #profile-categories,  #psychology .profile-categories,  #psychology .research-group-categories,  #psychology #tabbed-navigation ul {
+	background: #e4e7f2;
+}
+#infection #profile-categories,  #infection .profile-categories,  #infection .research-group-categories,  #infection #tabbed-navigation ul {
+	background: #ecc8bf;
+}
+#infection #tabbed-navigation ul li a {
+	background:#ecc8bf;
+	color:#000000;
+}
+#management #profile-categories,  #management .profile-categories,  #management .research-group-categories,  #management #tabbed-navigation ul {
+	background: #e5ecf1;
+}
+#physics #profile-categories,  #physics .profile-categories,  #physics .research-group-categories,  #physics #tabbed-navigation ul {
+	background: #DBE8DD;
+}
+#engineering #profile-categories,  #engineering .profile-categories,  #engineering .research-group-categories,  #engineering #tabbed-navigation ul {
+	background: #fef0f3;
+}
+#school-psychology #profile-categories,  #school-psychology .profile-categories,  #school-psychology .research-group-categories,  #school-psychology #tabbed-navigation ul {
+	background: #E9DBB4;
+	color:#000;
+	width: 680px !important;
+}
+#electrical-engineering #profile-categories,  #electrical-engineering .profile-categories,  #electrical-engineering .research-group-categories,  #electrical-engineering #tabbed-navigation ul {
+	background: #e5e9ef;
+}
+#risk #profile-categories,  #risk .profile-categories,  #risk .research-group-categories,  #risk #tabbed-navigation ul {
+	background: #d7dbea;
+}
+#environmental-science #profile-categories,  #environmental-science.profile-categories,  #environmental-science.research-group-categories  #environmental-science #tabbed-navigation ul {
+	background-color: #7F99CC;
+	color:#fff;
+}
+#management #profile-categories li,  #management .profile-categories li,  #management .research-group-categories li,  #management #tabbed-navigation li {
+	list-style: none;
+	float: left;
+	border-bottom:5px solid #80b8d9;
+	margin-right:10px;
+}
+#environmental-science #profile-categories li,  #environmental-science .profile-categories li,  #environmental-science .research-group-categories li,  #environmental-science #tabbed-navigation li {
+	list-style: none;
+	float: left;
+	border-bottom:5px solid #7F99CC;
+	margin-right:10px;
+}
+#psychology #profile-categories li,  #psychology .profile-categories li,  #psychology .research-group-categories li,  #psychology #tabbed-navigation li {
+	list-style: none;
+	float: left;
+	border-bottom:5px solid #607890;
+	margin-right:10px;
+}
+#mathematical-sciences #profile-categories,  #mathematical-sciences .profile-categories,  #mathematical-sciences .research-group-categories,  #mathematical-sciences #tabbed-navigation ul {
+	background: #E5CBA2;
+	color:#000;
+	width: 680px !important;
+}
+#profile-categories li,  .profile-categories li,  .research-group-categories li,  #tabbed-navigation li {
+	list-style: none;
+	float: left;
+}
+#profile-categories li a,  .profile-categories li a,  .research-group-categories li a,  #tabbed-navigation li a {
+	text-decoration: none;
+	padding: 8px 10px;
+	display: block;
+	color: #666;
+	/*css3*/
+
+	-webkit-transition: color 0.3s ease;
+	-webkit-transition: background 0.3s ease;
+}
+/******************************************/
+
+/*****  infection tabbed navigation   *****/
+
+/******************************************/
+
+#infection #tabbed-navigation li {
+	position:relative;
+}
+#infection #tabbed-navigation ul ul {
+	float:none;
+	position:absolute;
+	visibility: hidden;
+	width:0px;
+	background:#ffffff;
+}
+#infection #tabbed-navigation ul ul {
+	position:absolute;
+	visibility: hidden;
+}
+#infection #tabbed-navigation ul li:hover ul {
+	visibility:visible;
+}
+#profile-categories .active-category a,  .profile-categories .active-category a,  .research-group-categories .active-category a {
+	background: #ccc;
+	color: #000;
+}
+.hls #profile-categories .active-category a,  .hls .profile-categories .active-category a,  .hls .profile-categories li .currentbranch0 a,  .hls .research-group-categories .active-category a {
+	background: #c5e7c8;
+	color: #000;
+}
+#translational #profile-categories .active-category a,  #translational .profile-categories .active-category a,  #translational .profile-categories li .currentbranch0 a,  #translational .research-group-categories .active-category a {
+	background: #f5c6c8;
+	color: #000;
+}
+#mathematical-sciences #profile-categories .active-category a,  #mathematical-sciences .profile-categories .active-category a,  #mathematical-sciences .profile-categories li .currentbranch0 a,  #mathematical-sciences .research-group-categories .active-category a {
+	background: #593939;
+	color: #fff;
+}
+#ageing #profile-categories .active-category a,  #ageing .profile-categories .active-category a,  #ageing .profile-categories li .currentbranch0 a,  #ageing .research-group-categories .active-category a {
+	background: #c7d5d9;
+	color: #000;
+}
+#psychology #profile-categories .active-category a,  #psychology .profile-categories .active-category a,  #psychology .profile-categories li .currentbranch0 a,  #psychology .research-group-categories .active-category a {
+	background: #7a87bc;
+	color: #000;
+}
+#infection #profile-categories .active-category a,  #infection .profile-categories .active-category a,  #infection .profile-categories li .currentbranch0 a,  #infection .research-group-categories .active-category a {
+	background: #ecc8bf;
+	color: #000;
+}
+#engineering #profile-categories .active-category a,  #engineering .profile-categories .active-category a,  #engineering .profile-categories li .currentbranch0 a,  #engineering .research-group-categories .active-category a {
+	background: #FCDAE0;
+}
+#management #profile-categories .active-category a,  #management .profile-categories .active-category a,  #management .profile-categories li .currentbranch0 a,  #management .research-group-categories .active-category a {
+	background: #004872;
+	color: #FFFFFF;
+}
+#physics #profile-categories .active-category a,  #physics .profile-categories .active-category a,  #physics .profile-categories li .currentbranch0 a,  #physics .research-group-categories .active-category a {
+	background: #C5DAC8;
+}
+#school-psychology #profile-categories .active-category a,  #school-psychology .profile-categories .active-category a,  #school-psychology .profile-categories li .currentbranch0 a,  #school-psychology .research-group-categories .active-category a {
+	background: #BAAF90;
+	color: #000!important;
+}
+#electrical-engineering #profile-categories .active-category a,  #electrical-engineering .profile-categories .active-category a,  #electrical-engineering .profile-categories li .currentbranch0 a,  #electrical-engineering .research-group-categories .active-category a {
+	background: #002366;
+}
+#risk #profile-categories .active-category a,  #risk .profile-categories .active-category a,  #risk .profile-categories li .currentbranch0 a,  #risk .research-group-categories .active-category a {
+	background: #4040ad;
+}
+#environmental-science #profile-categories .active-category a,  #environmental-science .profile-categories .active-category a,  #environmental-science .profile-categories li .currentbranch0 a,  #environmental-science .research-group-categories .active-category a {
+	background: #003399;
+	color: #FFF;
+}
+#profile-categories a:hover,  .profile-categories a:hover,  .research-group-categories a:hover,  #tabbed-navigation li a:hover {
+	background: #bbb;
+	color: #fff;
+}
+#chemistry #profile-categories a:hover,  #chemistry .profile-categories a:hover,  #chemistry .research-group-categories a:hover,  #chemistry #tabbed-navigation li a:hover {
+	background:#004B8D;
+	color:#FFFFFF;
+}
+.hls #profile-categories a:hover,  .hls .profile-categories a:hover,  .hls .research-group-categories a:hover,  .hls #tabbed-navigation li a:hover {
+	background: #34ab3f;
+}
+#translational #profile-categories a:hover,  #translational .profile-categories a:hover,  #translational .research-group-categories a:hover  #translational #tabbed-navigation li a:hover {
+	background: #d61a23;
+}
+#ageing #profile-categories a:hover,  #ageing .profile-categories a:hover,  #ageing .research-group-categories a:hover,  #ageing #tabbed-navigation li a:hover {
+	background: #215868;
+}
+#psychology #profile-categories a:hover,  #psychology .profile-categories a:hover,  #psychology .research-group-categories a:hover,  #psychology #tabbed-navigation li a:hover {
+	background: #626c96;
+}
+#infection #profile-categories a:hover,  #infection .profile-categories a:hover,  #infection .research-group-categories a:hover,  #infection #tabbed-navigation li a:hover {
+	background: #b22200;
+	color:#ffffff;
+}
+#management #profile-categories a:hover,  #management .profile-categories a:hover,  #management .research-group-categories a:hover,  #management #tabbed-navigation li a:hover {
+	background: #407695;
+}
+#engineering #profile-categories a:hover,  #engineering .profile-categories a:hover,  #engineering .research-group-categories a:hover,  #engineering #tabbed-navigation li a:hover {
+	background: #FCDAE0;
+	color:#000;
+}
+#technology-directorate #profile-categories a:hover,  #technology-directorate .profile-categories a:hover,  #technology-directorate .research-group-categories a:hover,  #technology-directorate #tabbed-navigation li a:hover {
+	background: #6689B3;
+}
+#environmental-science #profile-categories a:hover,  #environmental-science .profile-categories a:hover,  #environmental-science .research-group-categories a:hover,  #environmental-science #tabbed-navigation li a:hover {
+	background: #bfcce5;
+	color:#FFF
+}
+#school-psychology #profile-categories a:hover,  #school-psychology .profile-categories a:hover,  #school-psychology .research-group-categories a:hover,  #school-psychology #tabbed-navigation li a:hover {
+	background: #BAAF90;
+	color: #000;
+}
+#mathematical-sciences #profile-categories a:hover,  #mathematical-sciences .profile-categories a:hover,  #mathematical-sciences .research-group-categories a:hover,  #mathematical-sciences #tabbed-navigation li a:hover {
+	background: #CCB18E;
+	color: #000;
+}
+#electrical-engineering #profile-categories a:hover,  #electrical-engineering .profile-categories a:hover,  #electrical-engineering .research-group-categories a:hover,  #electrical-engineering #tabbed-navigation li a:hover {
+	background: #ccd3e0;
+}
+#risk #profile-categories a:hover,  #risk .profile-categories a:hover,  #risk .research-group-categories a:hover,  #risk #tabbed-navigation li a:hover {
+	background: #4040ad;
+}
+
+#sociology-social-policy-and-criminology #profile-categories a:hover,  .profile-categories a:hover,  .research-group-categories a:hover,  #tabbed-navigation li a:hover {
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff; }
+
+#staff-profile .headshot {
+	margin-right: 30px;
+	max-width: 190px;
+}
+.inside #staff-profile p {
+	width: 100%;
+}
+#staff-details {
+	width: 360px;
+}
+img+#staff-details {
+	float: right;
+}
+#staff-details {
+	font-size: 12px;
+	margin: 0px;
+}
+#staff-details li {
+	margin-bottom: 10px;
+	list-style: none;
+}
+#staff-details .float-left {
+	width: 100px;
+	color: #000;
+}
+#staff-details .float-right {
+	width: 250px;
+}
+.zebra-stripe,  #research-group-members,  #research-groups ul {
+	margin: 0 0 30px 0;
+	font-size: 12px;
+}
+.zebra-stripe li,  #research-group-members li,  #research-groups ul li {
+	background: #e1e2e2;
+	padding: 8px 10px;
+	list-style: none;
+	display: block;
+}
+ .zebra-stripe li:nth-child(odd) {
+ background: #ccc;
+}
+.admin .zebra-stripe li {
+	background: #f2f5f9;
+}
+ .admin .zebra-stripe li:nth-child(odd),  .hls #research-group-members li:nth-child(odd) {
+ background: #E5EBF2;
+}
+.ref .zebra-stripe li {
+	background: #f2f5f9;
+}
+
+.excellence .zebra-stripe li {
+	background: #f2f5f9;
+}
+
+
+.friends .zebra-stripe li {
+	background: #f2f5f9;
+}
+ .friends .zebra-stripe li:nth-child(odd),  .hls #research-group-members li:nth-child(odd) {
+ background: #E5EBF2;
+}
+ .ref .zebra-stripe li:nth-child(odd),  .hls #research-group-members li:nth-child(odd) {
+ background: #E5EBF2;
+}
+
+ .excellence .zebra-stripe li:nth-child(odd),  .hls #research-group-members li:nth-child(odd) {
+ background: #E5EBF2;
+}
+
+
+.aie-staff {
+	float: left; clear: both; margin-bottom: 20px; padding-bottom: 20px; width: 100%; border-bottom: 1px dashed #ccc;
+	}
+
+	.aie-staff p a {
+
+	color:#fff;
+	}
+
+#main-content .aie-staff img {
+	float: right; clear:none; border: 4px solid #003a81; margin-bottom: 0px; margin-right: 0px;}
+
+.aie-staff h3 {
+	clear:none; background-color: #003a81; color: #fff; border-bottom: 0px; font-size: 16px; margin: 0px; letter-spacing: 0px; padding:5px;
+	}
+
+.aie-staff p {
+	background-color: #6689b3; color: white; padding: 5px 10px; margin: 0px; font-size: 14px;
+	}
+
+
+
+.i-p .zebra-stripe li {
+	background: #f2f5f9;
+}
+ .i-p.zebra-stripe li:nth-child(odd),  .hls #research-group-members li:nth-child(odd) {
+ background: #E5EBF2;
+}
+.a-z .zebra-stripe li {
+	background: #f2f5f9;
+}
+ .a-z .zebra-stripe li:nth-child(odd) {
+ background: #E5EBF2;
+}
+.hls .zebra-stripe li,  .hls #research-group-members li {
+	background: #d6eed8;
+}
+ .hls .zebra-stripe li:nth-child(odd),  .hls #research-group-members li:nth-child(odd) {
+ background: #eaf6eb;
+}
+#ageing .zebra-stripe li,  #ageing #research-group-members li,  #ageing #research-groups ul li {
+	background: #e8eef0;
+}
+ #ageing .zebra-stripe li:nth-child(odd),  #ageing #research-group-members li:nth-child(odd),  #ageing #research-groups ul li:nth-child(odd) {
+ background: #c7d5d9;
+}
+#translational .zebra-stripe li,  #translational #research-group-members li,  #translational #research-groups ul li {
+	background: #f9ddde;
+}
+ #translational .zebra-stripe li:nth-child(odd),  #translational #research-group-members li:nth-child(odd),  #translational #research-groups ul li:nth-child(odd) {
+ background: #fdf3f4;
+}
+#psychology .zebra-stripe li,  #psychology #research-group-members li,  #psychology #research-groups ul li {
+	background: #e4e7f2;
+}
+ #psychology .zebra-stripe li:nth-child(odd),  #psychology #research-group-members li:nth-child(odd),  #psychology #research-groups ul li:nth-child(odd) {
+ background: #f1f3f8;
+}
+#school-psychology .zebra-stripe li,  #school-psychology #research-group-members li,  #school-psychology #research-groups ul li {
+	background: #E9DBB4;
+}
+ #school-psychology .zebra-stripe li:nth-child(odd),  #school-psychology #research-group-members li:nth-child(odd),  #school-psychology #research-groups ul li:nth-child(odd) {
+ background: #BAAF90;
+}
+#infection .zebra-stripe li,  #infection #research-group-members li,  #infection #research-groups ul li {
+	background: #ecc8bf;
+	color:#000000;
+}
+ #infection .zebra-stripe li:nth-child(odd),  #infection #research-group-members li:nth-child(odd),  #infection #research-groups ul li:nth-child(odd) {
+ background: #DAA498;
+ color:#000000;
+}
+ #infection .zebra-stripe li:nth-child(odd) a {
+ color:#000000;
+}
+ #management .zebra-stripe li:nth-child(odd) a {
+ color:#000000;
+}
+#infection .zebra-stripe li a {
+	color:#000000;
+}
+#engineering .zebra-stripe li,  #engineering #research-group-members li,  #engineering #research-groups ul li {
+	background: #FEF0F3;
+}
+ #engineering .zebra-stripe li:nth-child(odd),  #engineering #research-group-members li:nth-child(odd),  #engineering #research-groups ul li:nth-child(odd) {
+ background: #FCDAE0;
+}
+#management .zebra-stripe li,  #management #research-group-members li,  #management #research-groups ul li {
+	background: #e5ecf1;
+	color:#000;
+}
+ #management .zebra-stripe li:nth-child(odd),  #management #research-group-members li:nth-child(odd),  #management #research-groups ul li:nth-child(odd) {
+ background: #80b8d9;
+ color:#000;
+}
+#physics .zebra-stripe li,  #physics #research-group-members li,  #physics #research-groups ul li {
+	background: #C5DAC8;
+}
+ #physics .zebra-stripe li:nth-child(odd),  #physics #research-group-members li:nth-child(odd),  #physics #research-groups ul li:nth-child(odd) {
+ background: #DBE8DD;
+}
+
+#sociology-social-policy-and-criminology .zebra-stripe li,  #sociology-social-policy-and-criminology #research-group-members li,  #sociology-social-policy-and-criminology #research-groups ul li {
+	background: #C5DAC8;
+}
+#sociology-social-policy-and-criminology .zebra-stripe li:nth-child(odd),  #sociology-social-policy-and-criminology #research-group-members li:nth-child(odd),  #sociology-social-policy-and-criminology #research-groups ul li:nth-child(odd) {
+ background: #E99098;
+ color:#000;
+}
+
+
+
+
+#mathematical-sciences .zebra-stripe li,  #mathematical-sciences #research-group-members li,  #mathematical-sciences #research-groups ul li {
+	background: #CCB18E;
+	color:#000;
+}
+ #mathematical-sciences .zebra-stripe li:nth-child(odd),  #mathematical-sciences #research-group-members li:nth-child(odd),  #mathematical-sciences #research-groups ul li:nth-child(odd) {
+ background: #E5CBA2;
+ color:#000;
+}
+#chemistry .zebra-stripe li,  #chemistry #research-group-members li,  #chemistry #research-groups ul li {
+	background: #ADD5F7;
+	color:#000;
+}
+ #chemistry .zebra-stripe li:nth-child(odd),  #chemistry #research-group-members li:nth-child(odd),  #chemistry #research-groups ul li:nth-child(odd) {
+ background: #7ABAF2;
+ color:#000;
+}
+#integrative-biology .zebra-stripe li,  #integrative-biology #research-group-members li,  #integrative-biology #research-groups ul li {
+	background: #EAF6EB;
+}
+ #integrative-biology .zebra-stripe li:nth-child(odd),  #integrative-biology #research-group-members li:nth-child(odd),  #integrative-biology #research-groups ul li:nth-child(odd) {
+ background: #D6EED8;
+}
+ #integrative-biology .course  #school-psychology .zebra-stripe li:nth-child(odd) a {
+ color:#000000;
+}
+#school-psychology .zebra-stripe li a {
+	color:#000000;
+}
+#electrical-engineering .zebra-stripe li,  #electrical-engineering #research-group-members li,  #electrical-engineering #research-groups ul li {
+	background: #e5e9ef;
+}
+ #electrical-engineering .zebra-stripe li:nth-child(odd),  #electrical-engineering #research-group-members li:nth-child(odd),  #electrical-engineering #research-groups ul li:nth-child(odd) {
+ background: #ccd3e0;
+}
+#risk .zebra-stripe li,  #risk #research-group-members li,  #risk #research-groups ul li {
+	background: #f9ddde;
+}
+ #risk .zebra-stripe li:nth-child(odd),  #risk #research-group-members li:nth-child(odd),  #risk #research-groups ul li:nth-child(odd) {
+ background: #fdf3f4;
+}
+#environmental-science .zebra-stripe li,  #environmental-science #research-group-members li,  #environmental-science #research-groups ul li {
+	background: #C5D2EB;
+}
+ #environmental-science .zebra-stripe li:nth-child(odd),  #environmental-science #research-group-members li:nth-child(odd),  #environmental-science #research-groups ul li:nth-child(odd) {
+ background: #E4EDFD;
+}
+
+
+#tabbed-content h1 {
+	width: 710px;
+}
+/* research groups */
+
+
+
+.research-group-categories {
+	float: left;
+	clear: both;
+}
+#research-group-members {
+	width: 600px;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	clear: both;
+}
+#research-group-members .email {
+	float: right;
+}
+#research-group-news {
+}
+#research-group-news ul, #research-group-news li {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+/* ----- institute/school course pages ----- */
+
+/* ----- institute/school course pages ----- */
+
+
+
+/* ----- course list ----- */
+
+#sociology-social-policy-and-criminology .course-list li {
+	background-color: #E99098;
+	margin-bottom:3px;
+	padding-left:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+#sociology-social-policy-and-criminology .course-list li h2 a {
+	font-family: Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	font-style:normal;
+	font-size:0.6em;
+	text-decoration:underline;
+	color:#000;
+}
+#sociology-social-policy-and-criminology .course-list li h2 a:link {
+	color:#000;
+}
+#sociology-social-policy-and-criminology .course-list li h2 span {
+	font-family: Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	font-style:normal;
+	color:#000;
+}
+
+#sociology-social-policy-and-criminology .course-list li:nth-child(odd),  #environmental-science .course-list li.odd {
+ background-color: #EABCC0;
+}
+
+.course-list, .course-list li {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.course-list li {
+	background-color: #eee;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.course-list li {
+	background-color: #eee;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.hls .course-list li {
+	background-color: #d6eed8;
+}
+#ageing .course-list li {
+	background-color: #e8eef0;
+}
+#translational .course-list li {
+	background-color: #f5c6c8;
+}
+#psychology .course-list li {
+	background-color: #e4e7f2;
+}
+#engineering .course-list li {
+	background-color: #fef0f3;
+	margin-bottom:3px;
+	padding-left:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+#engineering .course-list li h2 a {
+	font-family: Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	font-style:normal;
+	font-size:0.6em;
+	text-decoration:underline;
+	color:#000;
+}
+#engineering .course-list li h2 a:link {
+	color:#000;
+}
+#engineering .course-list li h2 span {
+	font-family: Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	font-style:normal;
+	color:#000;
+}
+#infection .course-list li {
+	background-color: #daa498;
+}
+#infection .course-list li a {
+	color:#000;
+}
+#medicine .course-list li {
+	background-color: #E4E7F2;
+}
+#medicine .course-list li a {
+	color:#000;
+}
+#management .course-list li {
+	background-color: #80b8d9;
+	margin-bottom:3px;
+	padding-left:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+#management .course-list li h2 a {
+	font-family: Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	font-style:normal;
+	font-size:0.6em;
+	text-decoration:underline;
+	color:#000;
+}
+#management .course-list li h2 a:link {
+	color:#000;
+}
+#management .course-list li h2 span {
+	font-family: Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	font-style:normal;
+	color:#000;
+}
+#physics .course-list li {
+	background-color:#C5DAC8;
+	margin-bottom:3px;
+	padding-left:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+#physics .course-list li h2 a {
+	font-family: Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	font-style:normal;
+	font-size:0.6em;
+	text-decoration:underline;
+	color:#000;
+}
+#physics .course-list li h2 a:link {
+	color:#000;
+}
+#physics .course-list li h2 span {
+	font-family: Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	font-style:normal;
+	color:#000;
+}
+#chemistry .course-list li {
+	background-color: #ADD5F7;
+	margin-bottom:3px;
+	padding-left:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+#chemistry .course-list li h2 a {
+	font-family: Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	font-style:normal;
+	font-size:0.6em;
+	text-decoration:underline;
+	color:#000000;
+}
+#chemistry .course-list li h2 a:link {
+}
+ #chemistry .course-list li:nth-child(odd) h2 a:link {
+}
+ #chemistry .course-list li:nth-child(odd) h2 span {
+}
+#chemistry .course-list li h2 span {
+	font-family: Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	font-style:normal;
+}
+#environmental-science .course-list li {
+	background-color: #4066b3;
+	margin-bottom:3px;
+	padding-left:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+#environmental-science .course-list li h2 a {
+	font-family: Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	font-style:normal;
+	font-size:0.6em;
+	text-decoration:underline;
+	color:#FFFFFF;
+}
+#environmental-science .course-list li h2 a:link {
+	color:#FFFFFF;
+}
+#environmental-science .course-list li h2 span {
+	font-family: Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	font-style:normal;
+	color:#FFFFFF;
+}
+
+
+
+.geology-and-geophysics .course-list  a{
+color:#fff
+}
+.geology-and-geophysics .course-list li{
+color:#fff;
+margin-bottom: 3px;
+padding-bottom: 2px;
+padding-left: 10px;
+padding-top: 2px;
+}
+
+
+#integrative-biology .course-list li {
+	margin-bottom:3px;
+	padding-left:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+#integrative-biology .course-list li h2 a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style:normal;
+	font-size:0.6em;
+	text-decoration:underline;
+	color:#000;
+}
+#integrative-biology .course-list li h2 a:link {
+	color:#000;
+}
+#integrative-biology .course-list li h2 span {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style:normal;
+	color:#000;
+}
+#electrical-engineering .course-list li {
+	background-color: #e5e9ef;
+}
+#risk .course-list li {
+	background-color: #f5c6c8;
+}
+ .course-list li:nth-child(odd) {
+ background-color: #ddd;
+}
+ .hls .course-list li:nth-child(odd),  .hls .course-list li.odd {
+ background-color: #eaf6eb;
+}
+ #ageing .course-list li:nth-child(odd),  #ageing .course-list li.odd {
+ background-color: #c7d5d9;
+}
+ #translational .course-list li:nth-child(odd),  #translational .course-list li.odd {
+ background-color: #fbe8e9;
+}
+ #psychology .course-list li:nth-child(odd),  #psychology .course-list li.odd {
+ background-color: #FCDAE0;
+}
+ #engineering .course-list li:nth-child(odd),  #engineering .course-list li.odd {
+ background-color: #FCDAE0;
+}
+ #infection .course-list li:nth-child(odd),  #infection .course-list li.odd {
+ background-color: #ecc8bf;
+}
+ #medicine .course-list li:nth-child(odd),  #medicine .course-list li.odd {
+ background-color: #bfc9d4;
+}
+ #management .course-list li:nth-child(odd),  #management .course-list li.odd {
+ background-color: #c0dbec;
+}
+ #physics .course-list li:nth-child(odd),  #physics .course-list li.odd {
+ background-color:#DBE8DD;
+}
+ #chemistry .course-list li:nth-child(odd),  #chemistry .course-list li.odd {
+ background-color: #7ABAF2;
+ color:#FFFFFF;
+}
+ #environmental-science .course-list li:nth-child(odd),  #environmental-science .course-list li.odd {
+ background-color: #7F99CC;
+}
+ #electrical-engineering .course-list li:nth-child(odd),  #electrical-engineering .course-list li.odd {
+ background-color: #ccd3e0;
+}
+ #risk .course-list li:nth-child(odd),  #risk .course-list li.odd {
+ background-color: #fbe8e9;
+}
+.course-list li h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 1.6em;
+	line-height: 1em;
+	padding: 0px;
+	margin: 0px;
+}
+.course-list li h2 span {
+	font-size: 0.6em;
+	color: #666;
+}
+.course h1,  .course h2,  .pg-course h3,  .pg-course h1,  .pg-course h2,  .pg-course h3,  .extras-box h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+.pg-course h1 {
+	color:#90624F;
+}
+.pg-course h3,  .pg-course h2,  .extras-box h3 {
+	margin-top: 20px;
+	font-size: 120%;
+	font-weight: normal;
+}
+.pg-course #compulsorymodules h3, .pg-course #optmodules h3 {
+	font-size: 100%;
+	font-weight: normal;
+	font-style:normal;
+}
+.course .content,  .pg-course .content {
+	padding-right: 10px;
+	width: 450px
+}
+/* Postgraduate extras box */
+
+#postgraduate .extras-box a {
+	text-decoration:none;
+	color:#333;
+}
+#postgraduate .extras-box a:hover {
+	text-decoration:underline;
+}
+#postgraduate div.extras-box {
+	background-color: transparent !important;
+	background-position: center top;
+	background-repeat: repeat-x;
+	border:none;
+	box-shadow: 0 0 0 0;
+	margin: 20px 40px 20px 20px;
+	padding: 2px 20px 20px 20px;
+}
+#postgraduate div.extras-box li {
+	margin:2px;
+}
+#postgraduate nav img {
+	border:0;
+}
+/* course header with text overlaid on image */
+
+
+
+#course-header {
+	position: relative;
+	z-index: 100;
+}
+#course-pitch {
+	text-shadow: 1px 1px 3px #000;
+	position: absolute;
+	width: 250px;
+	color: #fff;
+	left: 30px;
+	top: 20px;
+}
+.studentship #course-pitch {
+	width: 350px;
+}
+#course-pitch h1, #course-pitch h2 {
+	letter-spacing: -1px;
+	font-weight: normal;
+	font-style: italic;
+	margin-bottom: 5px;
+	line-height: 25px;
+	font-size: 27px;
+	color:#fff;
+}
+#postgraduate #course-pitch h1 {
+	margin-bottom:0;
+}
+#course-pitch h2 {
+	line-height: 22px;
+	font-size: 18px;
+}
+#postgraduate #course-pitch h2 {
+	margin-top:0;
+	color:#E3D8D3;
+	margin-bottom:10px;
+}
+.pg-course #course-pitch h2 {
+	margin-top:0;
+}
+#course-pitch h2 span, #course-pitch span.banner-codes {
+	color:#34ab3f;
+}
+#psychology #course-pitch h2 span {
+	color:#000;
+	text-shadow: none;
+}
+#psychology #course-pitch span.banner-codes {
+	color:#CDC09B;
+}
+#postgraduate #course-pitch h2 span,  #postgraduate #course-pitch span.banner-codes {
+	color:#E3D8D3;
+	text-shadow: none;
+}
+#course-pitch span.banner-codes {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 11px;
+}
+.postgraduate #course-pitch h2 span {
+	color:#90624F;
+}
+#course-pitch strong {
+	font-size: 11px;
+}
+#course-pitch h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+.postgraduate #banner-quote, .postgraduate #banner-quote-nojqery {
+	color: #E3D8D3;
+}
+#banner-quote h3,  #banner-quote-nojqery h3 {
+	font-family: Verdana, Geneva, sans-serif;
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10px;
+	color: #fff;
+}
+#banner-quote p,  #banner-quote-nojqery p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-bottom: 10px;
+	font-style: italic;
+}
+#banner-quote a,  #banner-quote-nojqery a {
+	color: #fff;
+}
+/* tabs across page */
+
+
+
+.course nav,  .pg-course nav {
+	margin-bottom: 20px;
+	position: relative;
+	font-size:12px;
+	z-index: 500;
+}
+.ie7 .course nav,  .ie7 .pg-course nav {
+	margin-bottom: 5px;
+}
+.course nav li,  .pg-course nav li {
+	float: left;
+	clear: none;
+}
+
+.course nav li.selected a,  .pg-course nav li.selected a {
+	border-top: 5px solid #34ab3f;
+	border-top: 5px solid #ccc;
+	border-right: none;
+	margin-top: -15px;
+	padding-top: 20px;
+	margin-right: 5px;
+	background: #fff;
+	-webkit-box-shadow: 3px -4px 4px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 3px -4px 4px rgba(0, 0, 0, 0.3);
+	box-shadow: 3px -4px 4px rgba(0, 0, 0, 0.3);
+}
+.ie8 .course nav li.selected a,  .ie8 .pg-course nav li.selected a {
+	border-right: 2px solid #ccc;
+}
+.ie7 .course nav li.selected a,  .ie7 .pg-course nav li.selected a {
+	position: relative;
+	border-right: 2px solid #ccc;
+}
+/* hls */
+
+	.hls .course nav li.selected a,  .hls .pg-course nav li.selected a {
+	border-top: 5px solid #34ab3f;
+}
+.ie8 .hls .course nav li.selected a,  .ie8 .hls .pg-course nav li.selected a {
+	border-right: 2px solid #34ab3f;
+}
+.ie7 .hls .course nav li.selected a,  .ie7 .hls .pg-course nav li.selected a {
+	position: relative;
+	border-right: 2px solid #34ab3f;
+}
+/* ageing */
+
+	#ageing .course nav li.selected a,  #ageing .pg-course nav li.selected a {
+	border-top: 5px solid #215868;
+}
+.ie8 #ageing .course nav li.selected a,  .ie8 #ageing .pg-course nav li.selected a {
+	border-right: 2px solid #215868;
+}
+.ie7 #ageing .course nav li.selected a,  .ie7 #ageing .pg-course nav li.selected a {
+	position: relative;
+	border-right: 2px solid #215868;
+}
+/* translational */
+
+	#translational .course nav li.selected a,  #translational .pg-course nav li.selected a {
+	border-top: 5px solid #D61A23;
+}
+.ie8 #translational .course nav li.selected a,  .ie8 #translational .pg-course nav li.selected a {
+	border-right: 2px solid #D61A23;
+}
+.ie7 #translational .course nav li.selected a,  .ie7 #translational .pg-course nav li.selected a {
+	position: relative;
+	border-right: 2px solid #D61A23;
+}
+/* psychology */
+
+	#psychology .course nav li.selected a,  #psychology .pg-course nav li.selected a {
+	border-top: 5px solid #626c96;
+}
+.ie8 #psychology .course nav li.selected a,  .ie8 #psychology .pg-course nav li.selected a {
+	border-right: 2px solid #626c96;
+}
+.ie7 #psychology .course nav li.selected a,  .ie7 #psychology .pg-course nav li.selected a {
+	position: relative;
+	border-right: 2px solid #626c96;
+}
+/* infection */
+
+	#infection .course nav li.selected a,  #infection .pg-course nav li.selected a {
+	border-top: 5px solid #626c96;
+}
+.ie8 #infection .course nav li.selected a,  .ie8 #infection .pg-course nav li.selected a {
+	border-right: 2px solid #626c96;
+}
+.ie7 #infection .course nav li.selected a,  .ie7 #infection .pg-course nav li.selected a {
+	position: relative;
+	border-right: 2px solid #626c96;
+}
+/* management */
+
+	#managment .course nav li.selected a,  #managment .pg-course nav li.selected a {
+	border-top: 5px solid #004872;
+}
+.ie8 #managment-school .course nav li.selected a,  .ie8 #managment-school .pg-course nav li.selected a {
+	border-right: 2px solid #004872;
+}
+.ie7 #managment-school .course nav li.selected a,  .ie7 #managment-school .pg-course nav li.selected a {
+	position: relative;
+	border-right: 2px solid #004872;
+}
+/* electrical-engineering */
+
+	#electrical-engineering .course nav li.selected a,  #electrical-engineering .pg-course nav li.selected a {
+	border-top: 5px solid #004872;
+}
+.ie8 #electrical-engineering .course nav li.selected a,  .ie8 #electrical-engineering .pg-course nav li.selected a {
+	border-right: 2px solid #004872;
+}
+.ie7 #electrical-engineering .course nav li.selected a,  .ie7 #electrical-engineering .pg-course nav li.selected a {
+	position: relative;
+	border-right: 2px solid #004872;
+}
+/* risk and uncertainty */
+
+	#risk .course nav li.selected a,  #risk .pg-course nav li.selected a {
+	border-top: 5px solid #D61A23;
+}
+.ie8 #risk .course nav li.selected a,  .ie8 #risk .pg-course nav li.selected a {
+	border-right: 2px solid #D61A23;
+}
+.ie7 #risk .course nav li.selected a,  .ie7 #risk .pg-course nav li.selected a {
+	position: relative;
+	border-right: 2px solid #D61A23;
+}
+#postgraduate .course nav li.selected a,  #postgraduate .pg-course nav li.selected a {
+	border-top: 5px solid #954c30;
+}
+#postgraduate .ie8 .course nav li.selected a,  .ie8 #postgraduate .pg-course nav li.selected a {
+	border-right: 2px solid #90624F;
+}
+#postgraduate .ie7 .course nav li.selected a,  .ie7 #postgraduate .pg-course nav li.selected a {
+	position: relative;
+	border-right: 2px solid #90624F;
+}
+.ie7 .course .content section h1,  .ie7 .pg-course .content section h1 {
+	display: block;
+	width: 400px;
+}
+
+/* s&e */
+.hls .course nav li.selected a,  .hls .pg-course nav li.selected a {
+	border-top: 5px solid #7F99CC;
+}
+
+/* course sidebar */
+
+
+
+
+
+#course-sidebar h1 {
+	font-weight: normal;
+}
+#course-sidebar .call-to-action {
+	text-align: center;
+	width: 210px;
+	color: #fff;
+}
+
+/* staff list and research intersets */
+
+
+
+#about-us li,  #research-staff li,  #supervising-staff li {
+	margin-bottom: 10px;
+}
+#research-staff li a.email {
+}
+/* research group navigation */
+
+
+
+#psychology #research-group h1,  #psychology #research-group .research-group-categories {
+	display: none;
+}
+#infection #research-group h1,  #infection #research-group .research-group-categories {
+	display: none;
+}
+#integrative-biology #research-group h1,  #integrative-biology #research-group .research-group-categories {
+	display: none;
+}
+#mathematical-sciences #research-group h1,  #mathematical-sciences #research-group .research-group-categories {
+	display: none;
+}
+/* other */
+
+
+
+.mres-module-overview,  .entry-overview {
+	font-size: 1em;
+	margin-bottom: 20px;
+}
+table.entry-overview {
+	width:100%;
+}
+.mres-module-overview caption {
+	text-align: left;
+}
+.mres-module-overview th,  .entry-overview th {
+	text-align: left;
+	padding: 5px 10px;
+}
+.mres-module-overview td,  .entry-overview td {
+	padding: 5px 10px;
+}
+.hls .mres-module-overview tr,  .hls .entry-overview tr {
+	background: rgba(53, 171, 64, 0.1);
+}
+ .hls .mres-module-overview tr.odd,  .hls .mres-module-overview tr:nth-child(odd),  .hls .entry-overview tr:nth-child(odd) {
+ background: rgba(53, 171, 64, 0.2);
+}
+.postgraduate .entry-overview tr {
+	background: #e3d8d3;
+}
+ .postgraduate .entry-overview tr.odd,  .postgraduate .entry-overview tr:nth-child(odd) {
+ background: #f4efed;
+}
+/* Postgraduate boxouts */
+
+.postgraduate .boxout p,  .postgraduate .boxout-profile p,  .postgraduate .boxout-profile td,  .postgraduate .boxout-profile th {
+	color:#391b0f;
+	font-size: 10.5px;
+}
+.hls .boxout p,  .hls .boxout-profile p,  .hls .boxout-profile td,  .hls .boxout-profile th,  .pg-boxout p {
+	font-size: 10.5px;
+	color:#000;
+}
+.postgraduate .boxout-profile p,  .hls .boxout-profile p {
+	padding-right:10px;
+	padding-left:10px;
+}
+.postgraduate .boxout p,  .hls .boxout p,  .pg-boxout p {
+	border-bottom:1px solid #fff;
+	margin-bottom:0px;
+	padding:10px;
+}
+.postgraduate .boxout tr,  .postgraduate .boxout-profile tr,  .hls .boxout-profile tr {
+	border-top:1px solid #fff;
+}
+.postgraduate .boxout th,  .postgraduate .boxout-profile th,  .hls .boxout-profile th {
+	text-align:left;
+	padding:10px;
+	width:175px;
+}
+.postgraduate .boxout td,  .postgraduate .boxout-profile td,  .hls .boxout-profile td {
+	padding:10px;
+}
+.postgraduate .boxout h3,  #postgraduate .boxout-profile h3,  .hls .boxout h3,  .hls .boxout-profile h3,  .pg-boxout h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 140%;
+	padding:10px 10px 0 10px;
+	font-weight:normal;
+	margin-top:0;
+	color:#391b0f;
+}
+/* Postgraduate RH h3's */
+
+
+
+#postgraduate #course-sidebar h3 {
+	color:#904326;
+	font-size: 140%;
+}
+/* Postgraduate  */
+
+
+
+#postgraduate h4.why,  .hls h4.why {
+	font-weight:normal;
+}
+/* Staff and student case studies */
+
+
+
+#postgraduate blockquote {
+	float:none;
+}
+#postgraduate span.profile,  .hls span.profile {
+	padding-top:20px;
+	display:block;
+	width:100%;
+}
+#postgraduate span.profile hr.border,  .hls span.profile hr.border {
+	visibility:visible;
+	height:5px;
+	width:100%;
+}
+#postgraduate span.profile img,  .hls span.profile img {
+	float:left;
+}
+#postgraduate span.profile h3,  .hls span.profile h3 {
+	margin-top:0;
+}
+#postgraduate span.profile span.profile-info,  .hls span.profile span.profile-info {
+	float:right;
+	display:block;
+}
+#postgraduate span.profile blockquote:after,  .hls span.profile blockquote:after {
+}
+#postgraduate span.profile div.fullquote,  .hls span.profile div.fullquote {
+	font-style:italic;
+	color: #90624F;
+	clear:both;
+}
+#postgraduate span.profile div.fullquote span.firstquote,  .hls span.profile div.fullquote span.firstquote {
+	font-family:  "Arial Black", Arial, Helvetica, sans-serif;
+	font-style:normal;
+	margin:0 30px 0 0;
+	font-size:500%;
+	color:#90624F;
+	padding:0;
+	float:left;
+}
+#postgraduate span.profile div.fullquote span.lastquote,  .hls span.profile div.fullquote span.lastquote {
+	margin-left:-2000px;
+}
+#postgraduate span.profile blockquote,  .hls span.profile blockquote {
+	background:none;
+	display:inline;
+	border:0;
+}
+/* ----- footer ----- */
+
+/* ----- footer ----- */
+
+
+
+
+
+footer {
+	padding-bottom: 20px;
+	margin: 20px;
+}
+footer p {
+	text-align: right;
+}
+#address {
+	background: #e1e2e2 url(../img/intrafooter.png) 10px 10px no-repeat;
+	min-height: 45px;
+	padding: 10px;
+	color: #666;
+}
+#global-footer {
+	display: block;
+	padding: 0px;
+	color: #fff
+}
+#global-footer a {
+	color: #fff;
+}
+#direct-edit-link a {
+	margin: -40px 0 0px 20px;
+	padding-top: 30px;
+	overflow: hidden;
+	display: block;
+	width: 110px;
+	height: 0px;
+}
+#management h4:hover {
+	cursor:pointer;
+	color:#80B8D9;
+}
+#direct-edit-link a:hover {
+}
+#evironmental-science #navigation ul ul li a {
+	background-color:#CCCCCC;
+}
+/*NO FLOAT STYLES*/
+
+.content .no-float {
+	float:none;
+}
+/*CLEARING FLOAT STYLES*/
+
+.clear-float {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+* html .clear-float {
+	height: 1%;
+} /* for IE5+6 */
+*:first-child+html .clear-float {
+	min-height: 1px;
+} /* for IE7 */
+/*PGT List styles */
+
+
+
+#postgraduate h1 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:22px;
+	font-style:italic;
+}
+#postgraduate article.content h1 {
+	clear:both;
+}
+#postgraduate h2#top {
+	margin-bottom:10px;
+	clear:left;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	font-style:italic;
+}
+#postgraduate ul {
+	margin-bottom:10px;
+}
+#postgraduate ul li {
+	margin-bottom:3px;
+}
+#postgraduate h3 {
+	margin-top:10px;
+}
+a[href="#top"] {
+	background-color:#90624F;
+	margin-bottom:10px;
+	color:#fff;
+	text-decoration:none;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	padding:3px;
+	margin-bottom:5px;
+}
+div#azlist {
+	float: left;
+	width: 430px;
+	clear: both;
+}
+div#azlist ul li {
+	float:left;
+	display:inline;
+	margin-right:5px;
+}
+#postgraduate #azlist ul li a {
+	background-color: #EEEEEE;
+	border: 1px solid #DDDDDD;
+	clear: none;
+	display: block;
+	list-style: none outside none;
+	text-align: center;
+	width: 20px;
+	margin-bottom:10px;
+}
+div#pglist {
+	clear:left;
+}
+div#org-list {
+	clear:left;
+}
+h3.letterheading {
+	margin-top:20px;
+	margin-bottom:5px;
+	line-height:20px;
+}
+/* STUDY STYLES */
+
+
+
+.study1 #dept-home-link a {
+	width:380px;
+}
+.study1 #search .search-button {
+	background: #90624f;
+}
+.study1 #navigation li a {
+	background: #685cad;
+	color:#fff;
+}
+
+.study1 #navigation .sub-menu a,  .study1 #navigation li ul a {
+	background-color: #b2c4d9;
+}
+.study1 #breadcrumb {
+	background: #8F91B2;
+	color:#fff;
+}
+.study1 #breadcrumb a {
+	color:#fff;
+}
+.study1 #main-content h2 {
+	background-color: transparent;
+	background-image: none;
+	border-bottom: 0 none;
+	color: #000000;
+	font-family: Georgia, Times, Times New Roman, serif;
+	font-size: 35px;
+	font-style: italic;
+	letter-spacing: -1px;
+	line-height: 33px;
+	padding: 10px 0 10px 2px;
+}
+.study1 #main-content h3 {
+	font-family: Georgia, Times, Times New Roman, serif;
+	font-size: 18px;
+	font-style: italic;
+	letter-spacing: -1px;
+}
+/* Migrated study site */
+
+
+
+
+
+
+
+#study-old #main-content {
+	width:430px;
+	float:left;
+}
+#study-old #right-hand-column {
+	width:220px;
+	float:right;
+	margin-right:30px;
+}
+#study-old blockquote {
+	width:170px;
+}
+#study-old #breadcrumb {
+	background: #e5ebf2;
+}
+#study-old #navigation li a {
+	background: #e5ebf2;
+}
+.study-old #navigation .sub-menu a,  .study-old #navigation li ul a {
+	background-color: #b2c4d9;
+}
+#study-old p {
+	margin-bottom:5px;
+}
+#study-old p + h3 {
+	margin-bottom:10px;
+}
+#study-old h2 {
+	font-family: Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	font-size: 170%;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+#study-old h3 {
+	font-size:18px;
+	margin-bottom:5px;
+}
+#study-old ul.admin-list {
+	border:1px solid #354993;
+}
+/* ---- TULIP module list styles ------
+
+
+
+
+
+
+
+
+
+	.moduleTable td {
+
+	padding:5px;
+
+	border-bottom: 1px solid #ccc;
+
+	}
+
+
+
+
+
+
+
+	#management tr.lightshading {
+
+		background-color:#80B8D9;
+
+
+
+
+
+	}*/
+
+
+
+	#management strong h3 {
+	font-family:Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	font-size: 170%;
+	font-weight: normal;
+	margin-bottom: 10px;
+	color:#004D80;
+}
+.moduleTable {
+	/*border: 1px solid #005951;*/
+
+    padding: 3px;
+	margin-top:5px;
+}
+.moduleCell {
+	border-color: #80B8D9;
+	border-style: solid;
+	border-width: 1px;
+	padding: 3px;
+}
+.moduleTableHorizontal {
+	border-bottom: 1px solid #80B8D9;
+	padding: 5px;
+}
+.tableBorder {
+	border: 2px solid #8E53B3;
+	padding: 2px;
+}
+tr.lightshading {
+	margin-top:10px;
+	background-color:#80B8D9;
+	padding:5px;
+}
+td.whitetext h3 {
+	text-align:left;
+	font-family:/*Swiss721GreekBT-Light,*/Arial, Helvetica, sans-serif;
+	font-size: 105%;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color:#004D80;
+}
+
+tr.odd td.moduleTableHorizontal {
+	border:none;
+}
+tr td p strong {
+	color:#004D80;
+}
+/**school of psychology tulip **/
+
+
+
+#school-psychology table.moduleTable {
+	margin:0 0 10px;
+	border:1px solid #000;
+}
+#school-psychology table.moduleTable td {
+	padding:0px;
+}
+#school-psychology table.moduleTable h3 {
+	padding:5px;
+	background-color:#BAAF90;
+}
+#school-psychology table.moduleTable td.whitetext h3 {
+	margin-bottom:0px;
+}
+#school-psychology table.moduleTable td p {
+	padding:10px;
+}
+#school-psychology strong h3 {
+	font-family:Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	font-size: 170%;
+	font-weight: normal;
+	margin-bottom: 10px;
+	color:#BAAF90;
+}
+#school-psychology .moduleTable {
+	/*border: 1px solid #005951;*/
+
+    padding: 3px;
+	margin-top:5px;
+}
+#school-psychology .moduleCell {
+	border-color: #000;
+	border-style: solid;
+	border-width: 1px;
+	padding: 3px;
+}
+#school-psychology .moduleTableHorizontal {
+	border-bottom: 1px solid #000;
+	padding: 5px;
+}
+#school-psychology .tableBorder {
+	border: 2px solid #000;
+	padding: 2px;
+}
+#school-psychology tr.lightshading {
+	margin-top:10px;
+	background-color:#BAAF90;
+	padding:5px;
+}
+#school-psychology td.whitetext h3 {
+	text-align:left;
+	font-family:/*Swiss721GreekBT-Light,*/Arial, Helvetica, sans-serif;
+	font-size: 105%;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color:#000;
+}
+
+#school-psychology tr.odd td.moduleTableHorizontal {
+	border:none;
+}
+#school-psychology tr td p strong {
+	color:#593939;
+}
+/**end**/
+
+
+
+/**school of life sciences tulip **/
+
+
+
+#life-sciences table.moduleTable {
+	margin:0 0 10px;
+	border:1px solid #000;
+}
+#life-sciences table.moduleTable td {
+	padding:0px;
+}
+#life-sciences table.moduleTable h3 {
+	padding:5px;
+	background-color:#8BAF8B;
+}
+#life-sciences table.moduleTable td.whitetext h3 {
+	margin-bottom:0px;
+}
+#life-sciences table.moduleTable td p {
+	padding:10px;
+}
+#life-sciences strong h3 {
+	font-family:Swiss721GreekBT-Light, Arial, Helvetica, sans-serif;
+	font-size: 170%;
+	font-weight: normal;
+	margin-bottom: 10px;
+	color:#8BAF8B;
+}
+#life-sciences .moduleTable {
+	padding: 3px;
+	margin-top:5px;
+}
+#life-sciences .moduleCell {
+	border-color: #000;
+	border-style: solid;
+	border-width: 1px;
+	padding: 3px;
+}
+#life-sciences .moduleTableHorizontal {
+	border-bottom: 1px solid #000;
+	padding: 5px;
+}
+#life-sciences .tableBorder {
+	border: 2px solid #000;
+	padding: 2px;
+}
+#life-sciences tr.lightshading {
+	margin-top:10px;
+	background-color:#8BAF8B;
+	padding:5px;
+}
+#life-sciences td.whitetext h3 {
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 105%;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color:#000;
+}
+#life-sciences tr.odd td.moduleTableHorizontal {
+	border:none;
+}
+#life-sciences tr td p strong {
+	color:#593939;
+}
+/**end**/
+
+
+
+#online-enquiry form fieldset {
+	width:250px;
+	float:left;
+}
+body#hospitality-liverpool #container footer {
+	margin-top:20px;
+}
+body#hospitality-liverpool #container aside {
+	margin-right:10px;
+}
+
+#law #online-enquiry h2,
+#medicine #online-enquiry h2,
+#mrc-cpt #online-enquiry h2 {
+	padding:0 0 10px;
+	font-size:20px;
+}
+#mrc-cpt #online-enquiry h3 {
+	padding:0 0 10px;
+	font-size:16px;
+}
+
+#law form legend,
+#medicine form legend,
+#mrc-cpt form legend {
+	display:none;
+}
+
+#law form span, #law form label.error,
+#medicine form span, #medicine form label.error,
+#mrc-cpt form span, #mrc-cpt form label.error {
+	color:red;
+}
+
+#law form .row,
+#medicine form .row,
+#mrc-cpt form .row {
+	padding:0 0 10px;
+}
+
+#law form input, #law form textarea,
+#medicine form input, #medicine form textarea,
+#mrc-cpt form input, #mrc-cpt form textarea {
+	width:320px;
+}
+
+#law form select,
+#medicine form select,
+#mrc-cpt form select {
+	width:332px;
+}
+
+#law form select.selectscript,
+#medicine form select.selectscript,
+#mrc-cpt form select.selectscript  {
+	width:332px;
+}
+
+#law form select.ctrDropDownClick,
+#medicine form select.ctrDropDownClick,
+#mrc-cpt form select.ctrDropDownClick {
+	width:500px;
+}
+#medicine form input, #medicine form textarea, #medicine form select,
+#mrc-cpt form input, #mrc-cpt form textarea, #mrc-cpt form select,
+#law form input, #law form textarea, #law form select {
+	padding:5px;
+	background:#EEEEEE;
+	border:1px solid #999999;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#medicine form input:focus, #medicine form textarea:focus, #medicine form select:focus,
+#mrc-cpt form input:focus, #mrc-cpt form textarea:focus, #mrc-cpt form select:focus {
+	background:#FFFFFF;
+}
+#medicine form #submit, #mrc-cpt form #submit {
+	width:150px;
+	background:#405F7D;
+	color:#FFFFFF;
+}
+#medicine form #submit:hover, #mrc-cpt form #submit:hover {
+	background:#BFC9D4;
+	color:#000000;
+	cursor:pointer;
+}
+#medicine .action-button {
+	display:block;
+	padding:10px;
+	margin:0 0 10px;
+	border:1px solid #999999;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width:150px;
+	background:#405F7D;
+	color:#FFFFFF;
+	text-align:center;
+	text-decoration:none;
+}
+#medicine .action-button:hover {
+	background:#BFC9D4;
+	color:#000000;
+}
+img.digital-uni {
+	display:none;
+}
+/**technology directorate identity**/
+
+
+
+	#technology-directorate #profile-categories,  #technology-directorate .profile-categories,  #technology-directorate .research-group-categories,  #technology-directorate #tabbed-navigation ul {
+	background: #E5EBF2;
+}
+/**cell imaging**/
+
+
+
+	#technology-directorate .cellimaging #tabbed-navigation ul {
+	background: #B89F6B;
+}
+#technology-directorate .cellimaging #tabbed-navigation li a {
+	color: #000;
+}
+/**Biomedical Electron Microscopy Unit**/
+
+
+
+	#technology-directorate .emunit #tabbed-navigation ul {
+	background: #2B4880;
+}
+#technology-directorate .emunit #tabbed-navigation li a {
+	color: #FFF;
+}
+/**NMR**/
+
+
+
+	#technology-directorate .nmr #tabbed-navigation ul {
+	background: #355BA0;
+}
+#technology-directorate .nmr #tabbed-navigation li a {
+	color: #FFF;
+}
+/**Magnetic Resonance and Image Analysis**/
+
+
+
+	#technology-directorate .magnetic #tabbed-navigation ul {
+	background: #84A4CA;
+}
+#technology-directorate .magnetic #tabbed-navigation li a {
+	color: #FFF;
+}
+/**Proteomics and Biological Mass Spectrometry**/
+
+
+
+#technology-directorate .proteomics #tabbed-navigation ul {
+	background: #EAC888;
+}
+#technology-directorate .proteomics #tabbed-navigation li a {
+	color: #000;
+}
+/**Flow Cytometry and Cell Sorting**/
+
+
+
+#technology-directorate .flow #tabbed-navigation ul {
+	background: #355BA0;
+}
+#technology-directorate .flow #tabbed-navigation li a {
+	color: #FFF;
+}
+
+
+/**bespoke environmental sciences**/
+
+#environmental-science #finding-us  .content img {
+    border: none !important;
+}
+
+/**bespoke mrc fellowship**/
+
+#left-side-box {
+	display: block;
+	width: 200px;
+	height: 0px;
+	padding-top: 50px;
+	overflow: hidden;
+	margin: 20px 0 0 20px;
+}
+
+
+.mrc #faculty-link {
+	padding-top: 0px;
+	text-indent:-9999px;
+	height: 100px;
+}
+
+.ocean-sciences .content .hand h4 {
+	cursor: pointer;
+	background-color: #D88910;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#E2A74C', EndColorStr='#D88910');
+	border-radius: 10px 10px 10px 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 4px 10px;
+    width: 90px;
+	}
+
+#physics .content .hand h4 {
+	cursor: pointer;
+	background-color: #D88910;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#E2A74C), to(#D88910));
+	background-image: -webkit-linear-gradient(top, #E2A74C, #D88910);
+	background-image:    -moz-linear-gradient(top, #E2A74C, #D88910);
+	background-image:     -ms-linear-gradient(top, #E2A74C, #D88910);
+	background-image:      -o-linear-gradient(top, #E2A74C, #D88910);
+	background-image:         linear-gradient(top, #E2A74C, #D88910);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#E2A74C', EndColorStr='#D88910');
+	border-radius: 10px 10px 10px 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 4px 10px;
+    width: 90px;
+	}
+
+
+#environmental-sciences .course-list li h2 span {
+	color: #FFF;
+	font-family: Swiss721GreekBT-Light,Arial,Helvetica,sans-serif;
+	font-style: normal;
+}
+
+#mrc-cpt .content .hand h4 {
+	cursor: pointer;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5), 0 10px 30px rgba(0, 0, 0, 0.3);
+	width: 100%;
+	background-color: #d0ae32;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#d0ae32), to(#c59a00));
+	background-image: -webkit-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:    -moz-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:     -ms-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:      -o-linear-gradient(top, #d0ae32, #c59a00);
+	background-image:         linear-gradient(top, #d0ae32, #c59a00);
+ 	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#d0ae32', EndColorStr='#c59a00');
+	border-radius: 10px 10px 10px 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 4px 10px;
+    width: 90px;
+	}
+
+#physics #containerSlider div.mask h2 { color:#FFF }
+
+.brand-caption { font-weight:bold; font-size:0.75em; margin-top:-20px;   }
+h3.bgcolor { padding-bottom:20px;}
+.proofpoints {
+
+font-family: Swiss721GreekBT-Light,Arial,Helvetica,sans-serif;
+    font-size: 170%;
+    font-weight: normal;
+    margin-bottom: 10px;
+	color:#003A81;
+
+}
+
+h3.nounderline {
+color:#003A81;
+margin-bottom:5px;
+
+}
+
+#message {
+
+width:300px;
+float:left;
+margin-right:20px;
+}
+
+#side-container {
+
+float:left;
+width:300px;
+}
+
+
+#performance, #brand {
+
+width:340px;
+border:1px solid #003A81;
+margin-bottom:20px;
+padding:10px;
+background-color:#e5ebf2;
+color:#333;
+float:left;
+}
+
+#performance h2, #brand h2 { color:#003A81;}
+
+.excellence #call-to-action, .excellence .call-to-action {
+	float:left;
+	background-color: #003A81;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#003A81), to(#003A81));
+	background-image: -webkit-linear-gradient(top, #003A81, #003A81);
+	background-image:    -moz-linear-gradient(top, #003A81, #003A81);
+	background-image:     -ms-linear-gradient(top, #003A81, #003A81);
+	background-image:      -o-linear-gradient(top, #003A81, #003A81);
+	background-image:         linear-gradient(top, #003A81, #003A81);
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#003A81', EndColorStr='#003A81');
+}
+
+/* --
+
+#health-arts-sciences #news-list-sort span {
+    display: none !important; }
+
+#health-arts-sciences #news-list-sort a {
+        width: 100%; }
+-- */
+
+/* ----- course popup for pg pages ---------*/
+
+.course-preview{
+		border: 10px solid #ccc;
+		width: 600px!important;
+		background-color: #fff;
+		margin-left: -300px;
+		max-height: 500px;
+		position: fixed;
+		overflow: auto;
+		display: none;
+		z-index: 3000;
+		padding: 20px;
+		top: 100px;
+		left: 50%;
+	}
+
+	.course-preview .call-to-action{
+		max-width: 300px;
+		margin: 0px;
+	}
+
+	#preview-text{
+		margin-right: 5%;
+		float: left;
+		width: 60%;
+	}
+
+	#preview-text h2{
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-weight: normal;
+		font-style: italic;
+		font-size: 20px;
+	}
+
+	#preview-links{
+		float: left;
+		width: 30%;
+	}
+
+	.content #window-close{
+		position: absolute;
+		cursor: pointer;
+		float: right;
+		border: none!important;
+		right: 0px;
+		padding: 0;
+		margin: 0;
+		top: 0px;
+	}
+
+	#overlay {
+		background: url("http://www.liv.ac.uk/files/css/images/black-50.png");
+		position: fixed;
+		cursor: pointer;
+		display: none;
+		z-index: 1000;
+		height: 100%;
+		width: 100%;
+		left: 0;
+		top: 0;
+	}
+
+
+

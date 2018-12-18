@@ -1,0 +1,521 @@
+/* Navigation colours:
+ *   Black header               (#000)
+ *   Deep  blue menu 		(#002780)
+ *   Royal blue current topic	(#003ECC)
+ *   Light grey/blue subtopics	(#305FCA)
+ */
+#navigation li.title a:hover,
+#navigation li.title a {
+	background-color:	#000;
+	color:			#fff;
+}
+aside#Minfo   .year,
+section#Minfo .year,
+#navigation li a:hover,
+#navigation li a {
+	background-color:	#002780;
+	color:			#fff;
+}
+#navigation .currentbranch0 a:hover,
+#navigation .currentbranch0 a {
+	background-color:	#003ECC;
+	color:			#fff;
+}
+#navigation .multilevel-linkul-0 li a:hover,
+#navigation .multilevel-linkul-0 li a {
+	background-color:	#305FCA;
+	color:			#fff;
+}
+			   /* also inherited by third-level links */
+#navigation .multilevel-linkul-1 li a:hover,
+#navigation .multilevel-linkul-1 li a {
+	background-color:	#6896ff;
+	color:			#fff;
+}
+
+/*
+ * Fix expansion of current first-level link
+ *   (Only apply if this is the _immediately_ selected version)
+ */
+#navigation li .currentbranch1 a {
+	padding-right:		20px;
+}
+#navigation li .currentbranch1 a:hover,
+#navigation li#selected span a   {
+	padding-right:		30px;
+}
+
+/*
+ * Indent text of second-level & third-level links
+ *    (addding 10px to left, means shrinking overall width)
+ */
+#navigation .multilevel-linkul-1 li a:hover,
+#navigation .multilevel-linkul-1 li a {
+	padding-left:		 20px;
+	width:			170px;
+}
+#navigation .multilevel-linkul-2 li a:hover,
+#navigation .multilevel-linkul-2 li a {
+	padding-left:		 40px;
+	width:			150px;
+}
+
+
+
+/*
+ * Right-side News/Events formatting
+ */
+,news-list ul,
+#news-list ul {
+	margin-left:		0.2em;
+}
+.news-list div a,
+#news-list div a {
+	font-weight:		bold;
+	text-decoration:	none;
+}
+.news-list ul li,
+#news-list ul li {
+	list-style:		none;
+	margin-left:		1.8em;
+	margin-bottom:		1em;
+}
+.news-list ul li a,
+#news-list ul li a {
+	text-decoration:	none;
+}
+
+.eventMonth,
+#eventMonth {
+	font-weight:		bold;
+	padding-left:		10px;
+
+}
+
+/*
+ *  Front Page News/Events formatting
+ */
+#computer-science ul.three-column-module {
+	width:  100%;
+	list-style-type:  none;
+}
+#computer-science ul.three-column-module > li:last-child { padding-right: 0; }
+#computer-science ul.three-column-module > li {
+	width:  31%;	/* Three columns, with space between */
+	padding-right: 2%;
+	padding-bottom: 10px;
+	float: left;
+}
+#computer-science ul.three-column-module li img {
+	max-height:	120px;
+	max-width:	120px;
+	width:		auto;
+}
+
+/*
+ *  Main Page News/Events formatting
+ */
+ul.three-column-module,
+#computer-science ul.events,
+#computer-science ul.news  {
+	margin-left: 0;
+	overflow: auto;
+}
+#computer-science ul.events > li.pending,
+#computer-science ul.news   > li.pending {
+	background:	#dd8;	/* Highlight entries requiring approval */
+}
+#computer-science ul.events > li.expired,
+#computer-science ul.news   > li.expired {
+	background:	#ddd;	/* Mark entries no longer displayed */
+}
+
+#computer-science ul.events > li,
+#computer-science ul.news   > li {
+	width:  48%;	/* Two columns, with space between */
+	padding-right: 2%;
+	padding-bottom: 10px;
+	float: left;
+}
+#computer-science ul.events > li.odd,
+#computer-science ul.news   > li.odd {
+	clear: both;	/* Start a new row following a "short" entry */
+}
+
+#computer-science ul.events li .left,
+#computer-science ul.news   li .left {
+	width:  34%;	/* of the column width */
+	float: left;
+}
+#computer-science ul.events li .right,
+#computer-science ul.news   li .right {
+	width:  66%;	/* of the column width */
+	float: right;
+}
+#computer-science ul.events a img,
+#computer-science ul.news   a img {
+	border-width: 4px;
+	max-width:    90%;
+	max-height:   100px;
+}
+
+#computer-science .news table         { clear:       both; }
+#computer-science .news table th      { width:        15%;
+                                        text-align:  left; }
+#computer-science .news table td:first-child {
+                                        white-space:  nowrap;
+                                        padding-right: 5px; }
+#computer-science .news table td img  { max-width:    90%;
+                                        margin-left:  1em; }
+#computer-science .news .aside        { font-size:      70%;
+                                        font-style: italic; }
+
+     
+#computer-science .news hr {
+	visibility:  visible;
+	width:       100%;
+	border-top:  1px solid #ccc;
+}
+
+#computer-science .newsitem img {
+	float:	   right;
+	margin-right:  0;
+	margin-left: 1em;
+	max-width:   60%;
+}
+#computer-science .newsitem p,
+#computer-science .newsitem h2 {
+	max-width: 60%;
+}
+
+#computer-science .admin .call-to-action {
+	clear:	none;
+	float:	right;
+	margin-left: 10px;
+}
+#computer-science .wide-content h1 {
+	color: #002780;
+}
+
+#computer-science .ref  .call-to-action { float: right; }
+#computer-science .withdrawn .ref       { text-decoration: line-through; }
+
+#content_container	{ float: left; }
+#supporting-text	{ float: right; 
+			  padding-top: 30px; }	/* Or relative positioning ? */
+
+/*
+ * Module styling
+ */
+div#module {
+	width:		475px;
+}
+section#Minfo {
+	float:		right;
+	width:		45%;
+}
+section#Minfo,
+  aside#Minfo {
+	border:		1px solid #000;
+	margin:		5px auto;
+}
+
+section#Pinfo,
+  aside#Pinfo {
+	margin:		5px auto;
+}
+
+section#Minfo table,
+  aside#Minfo table {
+	margin:		5px;
+}
+
+section#Minfo table td,
+  aside#Minfo table td {
+	width:		50%;
+	font-size:	80%;
+}
+
+  aside#Minfo .year a,
+section#Minfo .year a,
+section#Minfo table#Mdetails a,
+  aside#Minfo table#Mdetails a {
+	text-decoration:	none;
+}
+
+section#Minfo table#Mdetails td:first-child,
+  aside#Minfo table#Mdetails td:first-child {
+	font-weight:	bold;
+	padding-right:	5px;
+	width:		50%;
+}
+aside#Minfo   table.link_list,
+section#Minfo table.link_list {
+	margin:		5px 0px 5px 0px;
+	width:		100%;
+}
+aside#Minfo   table.link_list a,
+section#Minfo table.link_list a {
+	display:	block;
+}
+aside#Minfo   .year,
+section#Minfo .year {
+	display:	block;
+	text-align:	center;
+}
+aside#Minfo   a.pyear,
+section#Minfo a.pyear {
+	float:		left;
+	color:		#fff;
+}
+aside#Minfo   a.nyear,
+section#Minfo a.nyear {
+	float:		right;
+	color:		#fff;
+}
+
+
+table.rounded tr:first-child td:first-child,
+table.llr     tr:first-child td:first-child {
+    border-top-left-radius:	8px;
+}
+table.rounded tr:first-child td:last-child,
+table.llr     tr:first-child td:last-child {
+    border-top-right-radius:	8px;
+}
+table.rounded tr:last-child  td:first-child,
+table.llr     tr:last-child  td:first-child {
+    border-bottom-left-radius:	8px;
+}
+table.rounded tr:last-child  td:last-child,
+table.llr     tr:last-child  td:last-child {
+    border-bottom-right-radius:	8px;
+}
+
+table.rounded2 tr.blank:before { content: "#"; }
+table.rounded2 tr.blank:after  { content: "#"; }
+
+table.rounded2 tr.blank + tr  td:first-child,
+table.rounded2 tr.first-child td:first-child,
+table.rounded2 tr:first-child td:first-child {  border-top-left-radius:     8px; }
+table.rounded2 tr.blank + tr  td:last-child,
+table.rounded2 tr.first-child td:last-child,
+table.rounded2 tr:first-child td:last-child  {  border-top-right-radius:    8px; }
+/* table.rounded2 tr#blank - tr td:first-child,		Not supported :-( */
+table.rounded2 tr.last-child  td:first-child,
+table.rounded2 tr:last-child  td:first-child {  border-bottom-left-radius:  8px; }
+/* table.rounded2 tr#blank - tr td:last-child,		Not supported :-( */
+table.rounded2 tr.last-child  td:last-child,
+table.rounded2 tr:last-child  td:last-child  {  border-bottom-right-radius: 8px; }
+
+ .techreports hr,
+section#Minfo hr,
+  aside#Minfo hr {
+	visibility:	visible;
+	width:		100%;
+	border-top:	1px solid #ccc;
+	margin:		5px 0px 5px 0px;
+}
+
+div#module ol ol,
+div#module h3 {
+	margin-bottom:	0px;
+}
+
+div#module ol ol {
+	left:		 20px;
+	width:		400px;
+}
+div#module ul,
+div#module ol {
+	left:		 20px;
+	width:		420px;
+}
+div#module p {
+	width:		440px;
+	white-space:	pre-line;
+}
+
+table.link_list        a,
+table.link_list_light  a,
+table.link_list_nowrap a {
+	display:	block;
+}
+
+article.content table#submit,
+article.content table.submit {
+	border:		1;
+	border-style:	solid;
+}
+
+table#submit  form,
+table.submit  form {
+	padding:	10px;
+}
+
+#main-content .admin form {
+	padding:	0;
+}
+#main-content form,
+table#submit  td,
+table.submit  td {
+	padding:	5px;
+}
+
+.publications {
+	padding:	10px;
+}
+.publications p:first-child,
+.publications a,
+.publications span.title {
+	font-style:	italic;
+}
+
+.techreports a {
+	text-decoration: none;
+}
+.techreports li {
+	list-style:	none;
+}
+.techreports li li {
+	display:	inline;
+}
+#computer-science .techreports li.title {
+	color:		black;
+}
+#computer-science .techreports li.comment,
+#computer-science .techreports li.authors {
+	font-style:	italic;
+}
+#computer-science .techreports p.copyright {
+	font-size:	80%;
+}
+
+table.staff {
+	width:		100%;
+	margin-bottom:	20px;
+}
+
+/*
+table.link_list_nowrap th:first-child,
+table.link_list_nowrap td:first-child,
+table.link_list_light  td:first-child,
+table.link_list_light  th:first-child,
+*/
+table#past.staff  td:first-child {
+	white-space:	normal;
+}
+table.staff th:first-child,
+table.staff td:first-child {
+	white-space:	nowrap;
+	text-align:	right;
+	padding-right:	10px;
+}
+table.staff td:first-child h2 {
+	margin-top:	20px;
+	text-align:	left;
+}
+table.staff th,
+table.staff td {
+	padding-right:	10px;
+	padding-bottom:	5px;
+}
+table.staff tr td.empty {
+	min-width:	40%;
+	width:		auto !important;
+/*	width:		40%;  also needs this - which breaks non-empty rows! */
+}
+#computer-science .content table.staff a img {
+	border:		0;
+}
+table.staff td a {
+	text-decoration: none;
+}
+table.staff td a:hover {
+	text-decoration: underline;
+}
+
+aside img {
+	display:	block;
+	clear:		both;
+	margin-left:	auto;
+	margin-right:	auto;
+}
+
+aside img#people_logo {
+	max-height:	200px;
+	min-height:	200px;
+}
+
+#people_logo.sticky {
+	position:	fixed;
+/*	top:		0;	*/
+}
+
+#computer-science #login  .search-button,
+#computer-science #logout .search-button {
+	margin:		10px;
+}
+#computer-science .search-button {
+	padding:	5px 15px;
+	color:		#fff;
+}
+
+ul.modules h2 {
+	margin-top:	20px;
+}
+ul.modules h2:first-child {
+	margin-top:	10px;
+}
+
+ul.progmod li.optional  {
+	font-style:	italic;
+}
+ul.modules li a,
+ul.progmod li a {
+	text-decoration: none;
+}
+
+ul.simple li {
+	list-style-type: none;
+}
+ul.simple {
+	margin-top:	-1em;
+	margin-bottom:	0;
+}
+
+#computer-science .content ul.exams li a img {
+	border:		0;
+	height:		50px;
+	vertical-align:	top;
+}
+
+
+table.seminars td {
+	padding:	10px;
+}
+table.seminars th {
+	background-color: #ccc;
+	text-align:	left;
+}
+#computer-science .content a[href^="ics.php"] img {
+	border:		0;
+	float:		right;
+}
+
+.sslc td {
+	padding:	1px 5px;
+}
+.sslc td:first-child {
+	font-weight:	bold;
+}
+.sslc td:nth-child(2) {
+	white-space:	nowrap;
+}
+.sslc tr.empty {
+	height:		10px;
+}
+.sslc td .role {
+	font-style:	italic;
+	float:		right;
+}

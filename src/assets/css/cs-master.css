@@ -1,0 +1,9 @@
+.content#wide,
+#wide-content {
+  width:	 710px;
+}
+
+.content#wider,
+#wider-content {
+  width:	 950px;
+}
