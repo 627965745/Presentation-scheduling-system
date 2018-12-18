@@ -1,6 +1,6 @@
-# vueapp
+# Presentation scheduling system
 
-> anvueapp
+Project supervisor: Ullrich Hustadt
 
 ## Build Setup
 
