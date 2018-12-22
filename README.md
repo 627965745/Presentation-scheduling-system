@@ -1,7 +1,8 @@
 # Presentation scheduling system
 
 Project supervisor: Ullrich Hustadt
-
+DEMO: http://odoriko.top (student & marker) http://odoriko.top/sign (admin)
+admin credentials: username: ullrich password: 1
 ## Build Setup
 
 ``` bash
